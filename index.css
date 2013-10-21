@@ -14,9 +14,14 @@ body {
 
  */
 
+h1 {
+  color: ivory;
+}
+
 p {
   border: solid 3px #00FFFF;
   font-family:"Arial", Helvetica, sans-serif;
+  color: white;
 }
 
 
