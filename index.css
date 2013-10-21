@@ -1,14 +1,17 @@
+body 
+{
+background-image:url('Images/Sony PSP Ring.png');
+}
+
+/* code below was original wallpaper, the image above replaces that one. */
+
+/*
 body {
   background-color: #1E90FF;
   color: white;
 }
 
-/*
-h1 {
-  color: red;
-}
-*/
-
+ */
 
 p {
   border: solid 3px #00FFFF;
