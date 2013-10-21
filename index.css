@@ -8,9 +8,13 @@ h1 {
   color: red;
 }
 */
+
+
 p {
-  border: solid 10px green;
+  border: solid 3px #00FFFF;
+  font-family:"Arial", Helvetica, sans-serif;
 }
+
 
 .intro {
   color: purple;
