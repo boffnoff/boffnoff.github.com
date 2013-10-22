@@ -18,6 +18,12 @@ h1 {
   color: #FFE4E1;
 }
 
+h2 {
+  color: #FFE4E1;
+}
+
+
+
 p {
   border: solid 3px #00FFFF;
   font-family:"Arial", Helvetica, sans-serif;
@@ -32,3 +38,5 @@ p {
 }
 
 .intro p { background: silver; border-top-color: blue; }
+
+.changes
