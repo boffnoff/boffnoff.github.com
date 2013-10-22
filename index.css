@@ -76,5 +76,23 @@ code {
 
 
 
+.menu,
+.menu li {
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+}
+.menu {
+  border-top: solid 1px black;
+  border-bottom: solid 1px black;
+}
+.menu li {
+  padding: 15px;
+}
+.menu li:first-child {
+     
+}
+.menu li:last-child {    
 
+}
 
