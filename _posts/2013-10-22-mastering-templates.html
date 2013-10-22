@@ -36,4 +36,27 @@ layout: master
 &lt;a id=&quot;monday&quot;&gt;&lt;/a&gt;
 </code></pre>
   
+  <p>
+    And not long afterwards Dave showed me how to understand and impliment the "Templating" idea and way of structuring the filesystems. It involved creating a new directory called "_layouts" and
+    creating a new file called "master.html" within it. The details within that file currently (As of 4:12pm, 22/10/13) are:
+</p>
+<pre><code>
+    &lt;html&gt;
+
+    &lt;head&gt;
+    &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;/index.css&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width;&quot;&gt;  
+    &lt;/head&gt;
+
+    &lt;body&gt;
+    &lt;h1&gt;My Blog&lt;/h1&gt;
+    &lt;a href=&quot;/about.html&quot;&gt;About Me&lt;/a&gt;
+    &lt;a href=&quot;/index.html&quot;&gt;Home&lt;/a&gt;
+    &lt;hr/&gt;
+  {{content}}
   
+
+  &lt;/body&gt;
+
+  &lt;/html&gt;
+</code></pre>
