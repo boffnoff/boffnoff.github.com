@@ -3,88 +3,24 @@ layout: master
 ---
 
 <div class="intro">
-        <p>From the 21st - 25th October I am on Work Experience with <a href="https://github.com/davetayls">Dave Taylor</a> 
-        </p>
-    </div>
-    <p>
-        In a galaxy far far away, a long time ago. I once worked with a group of small dwarfs who loved typing up code.
-        <br>
-    </p>
-    <h2 id="monday" class="days">
-    Day 1. (Monday)
-  </h2>
-    <p>
-        So far I have created a "GitHub" account, a Codio account. And I even managed to complete some JavaScript tutorials on the <a href="http://apple.com/ipad">iPad.</a>
-        The plan will be to continue working on this page. I have spent most of my time focused on learing the basics of CSS.
-      <br>
-      For example:
+  <p>From the 21st - 25th October I am on Work Experience with <a href="https://github.com/davetayls">Dave Taylor</a> 
   </p>
-  <pre><code>
-    h1 { color: #FFE4E1; }
-</code></pre>
-  <p>
-    This CSS code tells the page that every <code>h1</code> will be the colour (Americans, take a hint, it's spelt with a 'u') #FFE4E1, which happens to be white with a very slight pink tinge. I
-    have also learnt how to link an image and set it as the background, (in CSS, and it's a lot easier than HTML) all you have to do is:
-  </p>
-  <pre><code>
-    body 
-    {background-image:url('http://gullyborg.typepad.com/.a/6a00d83421dda453ef00e553cf62538834-800wi');
-    background-position:center;}
-</code></pre>
+</div>
 <p>
-  Here the <code>body</code> tells the CSS where it should apply the following code, and all background images should be contained within the body, however if you wanted to preload them, you would
-  proabably have a a link in the header. The text following <code>backgorund-image:url</code> and inside of the hyphens of the brackets, is a link to wherever the image is stored. Here my example
-  is a cute fluffy bunny.
-  </p>
+  In a galaxy far far away, a long time ago. I once worked with a group of small dwarfs who loved typing up code.
+</p>
   
-  
-  
-  
-     <h2 id="tuesday" class="days">
-    Day 2. (Tuesday)
-  </h2>
-    <p>
-      It's already 11:30am, gee time flies by when you're having fun! So far today I have delved a little deeper into CSS, added anchor links to the days and am just about to add a HTML JavaScript
-      widget into the page.
-      <br>
-      <br>
-    First of all though, this new fandagled CSS I have started. Well it's nothing special like changing the colour of the page. (I think I have done that enough for now!) Does it allow you to press
-    a button and magically all of the chores are done? No. But it does mean that I can display code on the website without it screwing up and actually executing the command. I will now have to use
-    the code to show you the code. I hope that makes sense. Only it would if it would let me. It doesn't so, here's an image instead.
-  </p>
-  <img border="0" src="pre_code.png" alt="Pre Code" width="345" height="24">
-  
-  <pre><code>
-   &lt;pre&gt;&lt;code&gt;h1 { background: red; }&lt;/code&gt;&lt;/pre&gt;
-   </code></pre>
- 
- <p>
-   But it is actually do-able, I only realised this later. If you want the "pre code" command to show up, whilst using it, you must encode it using a HTML Entities webiste. Here's the one I
-   <a href="http://htmlentities.net">used.</a> SO. In order to display the actual code, I must encode the encoded text again!!! HEADACHES!!!!!! <IMG SRC="http://www.austen.com/tutorial/smiley.gif">
-   It's a paradox! Anyway, here's what the above code looks like inside of the "pre code" command.
-   </p>
-  <pre><code>
-    &amp;lt;pre&amp;gt;&amp;lt;code&amp;gt;h1 { background: red; }&amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;
-  </code></pre>
-<p>
-  Another thing I have maaged to finally get around to doing is inserting anchors for the days, that code goes something along the line of this:
-      </p>
-  <pre><code>
-&lt;a id=&quot;monday&quot;&gt;&lt;/a&gt;
-</code></pre>
-  
-  
-  
-  
-    <button type="button" onclick="alert('Hello world!')">Click Me!</button>
-    <form>
-        <input type="button" value="About" onClick="window.location.href='http://boffnoff21.github.io/about.html'">
-    </form>
-  <form action="#">
-       <input type="button" value="George Orwell" onClick="saySomething('to write or even speak Englih is not a science but an art')" />
- </form>
-
-        <p>
-            <a href="mailto:09starobb@st-laurence.wilts.sch.uk">Suggest Changes</a>
-        </p>
-  
+<ul>
+{% for post in site.posts limit:14 %}
+    <li>
+        <a href="{{ post.url }}">
+          <span>
+            {{ post.title }}
+            <time datetime="{{ post.date | date_to_xmlschema }}">
+              {{ post.date | date:"%b %d %Y" }}
+            </time>
+          </span>
+        </a>
+    </li>
+{% endfor %}
+</ul>
