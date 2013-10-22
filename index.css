@@ -40,4 +40,13 @@ p {
 
 .intro p { background: silver; border-top-color: blue; }
 
-.changes
+pre {
+  background: black;
+  padding: 15px 10px;
+}
+code { 
+  background: black;
+  color: white;
+  padding: 0 3px;
+}
+
