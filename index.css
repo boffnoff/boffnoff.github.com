@@ -18,13 +18,30 @@ h1 {
   color: #FFE4E1;
 }
 
+/* 
+
+The following code indicates that when ever you mouse over a link, the text will chnage colour to red, enlarge by 150% and underline the link
+
+*/
+
+
+
+a:hover{
+  color:red;
+  font-size:150%;
+ text-decoration:underline;
+}
+
+
+
+
 
 
 p {
   font-family:"Arial", Helvetica, sans-serif;
   color: #FFFFFF;
   background: rgba(0,0,0,0.5)
-  padding: 5px;
+  padding; 5px;
 }
 
 
