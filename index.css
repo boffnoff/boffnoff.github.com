@@ -76,18 +76,11 @@ code {
 
 
 
+
 .menu {
-  font-family:"Arial", Helvetica, sans-serif;
-  border-left: solid 3px #00FFFF;
-  border-right: solid 3px #00FFFF;
-  color: #FFFFFF;
-  background: rgba(0,0,0,0.5);
-  padding: 15px;
+ list-style: none oustide none;
   
 }
-
-
-
 
 .menu,
 .menu li {
@@ -97,6 +90,7 @@ code {
 }
 
 .menu li {
+  list-style: none outside none;
   padding: 15px;
 }
 
