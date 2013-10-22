@@ -76,16 +76,26 @@ code {
 
 
 
+.menu {
+  font-family:"Arial", Helvetica, sans-serif;
+  border-left: solid 3px #00FFFF;
+  border-right: solid 3px #00FFFF;
+  color: #FFFFFF;
+  background: rgba(0,0,0,0.5);
+  padding: 15px;
+  
+}
+
+
+
+
 .menu,
 .menu li {
   list-style: none outside none;
   margin: 0;
   padding: 0;
 }
-.menu {
-  border-top: solid 1px white;
-  border-bottom: solid 1px white;
-}
+
 .menu li {
   padding: 15px;
 }
