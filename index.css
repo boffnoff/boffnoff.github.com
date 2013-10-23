@@ -34,6 +34,13 @@ h1 {
 
 
 
+@font-face {
+  font-family: 'Optima LT Std';
+  src: url('OptimaLTSd.ttf');
+  src: local('Optima'), local('OptimaLTSd'), url('OptimaLTSd.ttf') format('regular');
+}
+
+
 
 
 
