@@ -66,6 +66,24 @@ layout: master
   
 &lt;/article&gt;
 </code></pre>
-
-
+<p>
+  However, Dave has found a simpler way of doing the exact same thing. It is still within the "post.html" file, but the following code is underneath that above. Observe:
+</p>
+  
+<pre><code>
+&lt;ul class=&quot;paging&quot;&gt; 
+        {% if page.previous.url %} 
+        &lt;li class=&quot;paging__previous&quot;&gt; 
+                &lt;a href=&quot;{{page.previous.url}}&quot;&gt;&amp;laquo; {{page.previous.title}}&lt;/a&gt; 
+        &lt;/li&gt; 
+        {% endif %} 
+        {% if page.next.url %} 
+        &lt;li class=&quot;paging__next&quot;&gt; 
+                &lt;a href=&quot;{{page.next.url}}&quot;&gt;{{page.next.title}} &amp;raquo; &lt;/a&gt; 
+        &lt;/li&gt; 
+        {% endif %} 
+&lt;/ul&gt;  
+</code></pre>
+  
+ 
 <hr>
