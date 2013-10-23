@@ -1,7 +1,7 @@
-body 
-{
-background-image:url('/images/sony_ring.png');
+body {
+  background-image:url('/images/sony_ring.png');
   background-position:center; 
+  font-family: 'quicksandlight', "Arial", Helvetica, sans-serif;
 }
 
 /* code below was original wallpaper, the image above replaces that one. */
@@ -34,16 +34,6 @@ h1 {
 
 
 
-@font-face {
-  font-family: 'Optima LT Std';
-  src: url('OptimaLTSd.ttf');
-  src: local('OptimaLTSd.ttf'), local('OptimaLTSd'), url('OptimaLTSd.ttf') format('regular');
-}
-
-
-
-
-
 /* 
 
 The following code indicates that when ever you mouse over a link, the text will chnage colour to red, enlarge by 150% and underline the link
@@ -64,7 +54,6 @@ a:hover{
 
 
 p {
-  font-family:"Arial", Helvetica, sans-serif;
   border-left: solid 3px #00FFFF;
     border-right: solid 3px #00FFFF;
   color: #FFFFFF;
@@ -89,10 +78,12 @@ p {
 .intro p { background: silver; border-top-color: blue; }
 
 pre {
+  font-family: monospace;
   background: black;
   padding: 15px 10px;
 }
 code { 
+  font-family: monospace;
   background: black;
   color: white;
   padding: 0 3px;
