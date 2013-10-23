@@ -19,7 +19,23 @@ h1 {
   text-align:center;
   color: #FAFAFA;
   font-size:40px;
+  font-family: 'absender', Arial, sans-serif;
 }
+
+
+
+
+
+@font-face {
+	font-family: 'absender';
+	src: url('absender.ttf');
+	src: local('absender'), local('absender'), url('absender.ttf') format('truetype');
+}
+
+
+
+
+
 
 /* 
 
