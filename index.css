@@ -42,8 +42,16 @@ The following code indicates that when ever you mouse over a link, the text will
 */
 
 
+a, a:visited,{
+  color: yellow;
+  
+}
 
-a:hover{
+a:link {
+  color: #CCCCCC
+}
+
+a:hover, a:focus {
   color:red;
   font-size:150%;
  text-decoration:underline;
