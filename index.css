@@ -99,6 +99,15 @@ code {
   padding: 0 3px;
 }
 
+.paging, .paging li{
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+}
+
+.paging li {
+  padding: 15px;
+}
 
 
 
