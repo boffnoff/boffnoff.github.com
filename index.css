@@ -65,7 +65,7 @@ a:hover, a:focus {
 
 p {
   border-left: solid 3px #00FFFF;
-    border-right: solid 3px #00FFFF;
+  border-right: solid 3px #00FFFF;
   color: #FFFFFF;
   background: rgba(0,0,0,0.5);
   padding: 15px;
@@ -81,8 +81,9 @@ p {
 
 .intro {
   color: purple;
-  padding: 5px;
-  background: #006eff;
+  background: rgba(0,255,255,0.7);
+  box-shadow: 0 8px 5px rgba(0,0,0,0.3);
+  padding: 15px;
 }
 
 .intro p { background: silver; border-top-color: blue; }
