@@ -82,7 +82,7 @@ p {
 .intro {
   color: purple;
   padding: 5px;
-  background: yellow;
+  background: #006eff;
 }
 
 .intro p { background: silver; border-top-color: blue; }
