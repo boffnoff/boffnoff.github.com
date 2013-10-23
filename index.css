@@ -42,11 +42,12 @@ The following code indicates that when ever you mouse over a link, the text will
 */
 
 
-a, a:visited,{
+a:visited {
   color: yellow;
   
 }
 
+a,
 a:link {
   color: #CCCCCC
 }
