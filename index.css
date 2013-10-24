@@ -133,16 +133,17 @@ code {
   padding: 0;
 }
 
+.paging {
+  overflow: hidden;
+}
 .paging li {
   padding: 15px;
 }
-
 .paging_previous {
-  text-align:right;
+  float: left;
 }
 
 .pagig_next {
-  text-align:left;
   float:right;
 }
 
