@@ -120,24 +120,27 @@ code {
 
 
 
-.menu {
- list-style: none oustide none;
-  
-}
 
 .menu,
-.menu li {
+.menu-horizontal,
+.menu li,
+.menu-horizontal li {
   list-style: none outside none;
   margin: 0;
   padding: 0;
 }
 
 .menu li {
-  list-style: none outside none;
   padding: 15px;
 }
 
-
+.menu-horizontal {
+  display: block;
+  text-align: right;
+}
+.menu-horizontal li {
+  display: inline;
+}
 
 
 .page_footer {

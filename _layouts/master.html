@@ -9,13 +9,13 @@
 <body>
   <header class="main_header">
     <h1>{{ page.title }}</h1>
-    <right>
-    <a href="/index.html">Home</a>
-    <a href="/about.html">About Me</a>
-    <a href="https://github.com/boffnoff">GitHub</a>
-    <a href="https://twitter.com/Boffnoff">Follow me on Twitter</a>
-    <a href="http://store.steampowered.com">Check out Steam</a>    
-    </right>
+    <ul class="menu-horizontal">
+      <li><a href="/index.html">Home</a></li>
+      <li><a href="/about.html">About Me</a></li>
+      <li><a href="https://github.com/boffnoff">GitHub</a></li>
+      <li><a href="https://twitter.com/Boffnoff">Follow me on Twitter</a></li>
+      <li><a href="http://store.steampowered.com">Check out Steam</a></li>
+    </ul>
   </header>
   <div class="content" role="main">
     {{content}}
