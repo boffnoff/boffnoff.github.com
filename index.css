@@ -137,7 +137,13 @@ code {
   padding: 15px;
 }
 
+.paging_previous {
+  text-align: right;
+}
 
+.pagig_next {
+  text-align: left;
+}
 
 
 .menu,
