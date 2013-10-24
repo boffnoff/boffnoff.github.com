@@ -63,11 +63,27 @@ was updated/built:
         Generated: {{ site.time | date: '%d %m %H:%M' }}
       </footer>
 
-The codes after `| date:` we grabbed from a website that showed all of the possible Jekll date output codes. You can use any from the extensive [list](http://docs.shopify.com/themes/liquid-basics/output#date)
-  
-  
-  
-  
+The codes after `| date:` we grabbed from a website that showed all of the possible Jekll date output codes. You can use any from the extensive
+[list.](http://docs.shopify.com/themes/liquid-basics/output#date)We decided upon: day, month, time. You wil probably notice that the time displayed isn't your system time. Still don't know
+why, but I think it has something to do with the fact that the website is hosted on GitHub, so their server might be in a different time zone.
+
+
+##Brand Test
+
+So then I was introduced to something called a "brand-test". This file is stored within the root of the server, and bascicaly uses any styling you have already applied and gives you
+examples of every type of HTML code available, and when viewed shows you the holes within you CSS code. I spent 10 minutes patching up holes that were easily solved by adding a `h1` to a
+list somewhere. A good thing that I learnt was that if you add a base color into the body section, then any text within your page will show up. If you would like custom, embedded fonts to
+appear then you must include and reference them like so:
+
+    <head>
+        <title>Brand - Test</title>
+        <link href="index.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="fonts/quicksand/stylesheet.css">
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <meta name="viewport" content="width=device-width;">  
+    </head>
+
+If you have them linked elsewhere, and not contained within the `body` tags they won't work.
   
   
 
