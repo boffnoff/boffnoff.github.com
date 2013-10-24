@@ -139,11 +139,11 @@ code {
 .paging li {
   padding: 15px;
 }
-.paging_previous {
+.paging__previous {
   float: left;
 }
 
-.pagig_next {
+.paging__next {
   float:right;
 }
 
