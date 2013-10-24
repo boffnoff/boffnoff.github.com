@@ -90,6 +90,7 @@ If you have them linked elsewhere, and not contained within the `body` tags they
   
 As thats what it looks like now, but when you view the pages now, it will have changed since the writing of this. 
 
+
 ###New CSS rule for page navigation
 
     .paging_previous {
@@ -101,4 +102,4 @@ As thats what it looks like now, but when you view the pages now, it will have c
       text-align: left;
     }
 
-asdad
+Can't wait to see if that code has actually worked!
