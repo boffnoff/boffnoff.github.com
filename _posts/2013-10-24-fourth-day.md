@@ -83,7 +83,8 @@ appear then you must include and reference them like so:
         <meta name="viewport" content="width=device-width;">  
     </head>
 
-If you have them linked elsewhere, and not contained within the `body` tags they won't work.
-  
-  
+If you have them linked elsewhere, and not contained within the `body` tags they won't work. And the next task is change/add code for the links between pages.
+
+  ![Page Navigation](/images/page_navigation.png)
+ <img border="0" src="/images/page_navigation.png" alt="Page Navigation" width="259" height="121">
 
