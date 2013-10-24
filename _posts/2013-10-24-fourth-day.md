@@ -25,8 +25,8 @@ As you can see, at least now the website appears a little more professional. The
 ## Blocks within Blocks within Blocks
 
 So after I had ran cleanup on my CSS, it was suggested by my Fairy Godfather, (He's training to become "The Godfather"), that we organise the navigation hyperliks that you see at the top of
-the page. When we say organise, it's not put each hyperlink on a new line, because in HTML that makes no difference because it ignores white space, and anyway the end result was the exact same
-as the original. What we did was place the hyperlinks into an unordered list `<ul>` , with each link as a link item `<li>`. Then we added CSS code to style and convert the list
+the page. When we say organise, it's not put each hyperlink on a new line, because in HTML that makes no difference because it ignores white space, and anyway the end result was the exact
+same as the original. What we did was place the hyperlinks into an unordered list `<ul>` , with each link as a link item `<li>`. Then we added CSS code to style and convert the list
 to become horizontal and aligned right. It's probably easier if you just take a look at what the code used to look like, and what it looks like now:
 
 ### Then
@@ -54,11 +54,24 @@ to become horizontal and aligned right. It's probably easier if you just take a 
           <li><a href="http://store.steampowered.com">Check out Steam</a></li>
         </ul>
       </header>
+
+
+The next task was to add rules and attribrutes to elements within index.css. The website has started to feel and look a lot better. We then added in code to display when the website was last
+was updated/built:
+
+     <footer class="page_footer">
+        Generated: {{ site.time | date: '%d %m %H:%M' }}
+      </footer>
+
+The codes after `| date:` we grabbed from a website that showed all of the possible Jekll date output codes. You can use any from the extensive
+
+(http://docs.shopify.com/themes/liquid-basics/output#date "list")
+
+
+<a href="http://docs.shopify.com/themes/liquid-basics/output#date">list</a>
   
   
-  
-  
-  
+  [I'm an inline-style link with title](https://www.google.com "Google's Homepage")
   
   
   
