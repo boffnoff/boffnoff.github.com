@@ -10,12 +10,12 @@ layout: master
 <ul class="paging"> 
         {% if page.previous.url %} 
         <li class="paging__previous"> 
-                <a href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a> 
+                <a href="{{page.previous.url}}">&lt; {{page.previous.title}}</a> 
         </li> 
         {% endif %} 
         {% if page.next.url %} 
         <li class="paging__next"> 
-                <a href="{{page.next.url}}">{{page.next.title}} &raquo; </a> 
+                <a href="{{page.next.url}}">{{page.next.title}} &gt; </a> 
         </li> 
         {% endif %} 
 </ul> 
