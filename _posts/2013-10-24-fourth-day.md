@@ -56,8 +56,8 @@ to become horizontal and aligned right. It's probably easier if you just take a 
       </header>
 
 
-The next task was to add rules and attribrutes to elements within index.css. The website has started to feel and look a lot better. We then added in code to display when the website was last
-was updated/built:
+The next task was to add rules and attribrutes to elements within index.css. The website has started to feel and look a lot better. We then added in code to display when the website was
+last was updated/built:
 
      <footer class="page_footer">
         Generated: {{ site.time | date: '%d %m %H:%M' }}
@@ -101,5 +101,12 @@ As thats what it looks like now, but when you view the pages now, it will have c
     .pagig_next {
       text-align: left;
     }
+    
+    .paging {
+    overflow: hidden;
+    }
 
-Can't waiadasd
+No that I had finally got that sorted out, I turned my attention a new page, "misc.html". But have reached a stump as I cannot provide myself with the code required to create a slideshow
+of my Graphics work, even web based pages that create it for you aren't working. So instead me and Dave sat down and had a look through his work for a bug that he had been looking for, for
+ages. We found it, and then we turned our attention to one that had been "bugging" me for ages. It turned out that it was a simple typeo in the address of a link! A silly mistake, that was
+preventing some aspects of my CSS to show through onto the page.
