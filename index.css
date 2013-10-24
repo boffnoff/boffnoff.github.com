@@ -91,7 +91,10 @@ h2,
   padding: 15px;
 }
 
-.intro p { background: silver; border-top-color: blue; }
+.intro p { background: rgba(0,0,0,0.4);
+  border-top-color: blue;
+  padding: 10px
+}
 
 pre {
   font-family: monospace;
