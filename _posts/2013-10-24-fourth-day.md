@@ -63,15 +63,7 @@ was updated/built:
         Generated: {{ site.time | date: '%d %m %H:%M' }}
       </footer>
 
-The codes after `| date:` we grabbed from a website that showed all of the possible Jekll date output codes. You can use any from the extensive
-
-(http://docs.shopify.com/themes/liquid-basics/output#date "list")
-
-
-<a href="http://docs.shopify.com/themes/liquid-basics/output#date">list</a>
-  
-  
-  [I'm an inline-style link with title](https://www.google.com "Google's Homepage")
+The codes after `| date:` we grabbed from a website that showed all of the possible Jekll date output codes. You can use any from the extensive [list](http://docs.shopify.com/themes/liquid-basics/output#date)
   
   
   
