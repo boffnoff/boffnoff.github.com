@@ -99,7 +99,7 @@ function, although it doesn't give you any variables, it tells the computer to d
 
 ###Basic Name Structure
 
-SA
+Here we are 
 
 
     var first;
