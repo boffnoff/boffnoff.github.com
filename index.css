@@ -125,6 +125,7 @@ pre {
   font-family: monospace;
   background: black;
   padding: 15px 10px;
+  overflow: auto;
 }
 code { 
   font-family: monospace;
