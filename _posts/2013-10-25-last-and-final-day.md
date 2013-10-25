@@ -225,3 +225,5 @@ handles the others, outside of the array. The line of code following that block 
 name in the array, "obi wan". Following that it, it will give you the full name of the second variable within that string: "the emperor", and lastly it will tell you the full name of "james": that
 being: "james brown".
 
+So that brings the end of my Work Experience, here with Dave Taylor to an end. :( It's such a shame that time has gone so quickly, but I have learnt a lot from this 'experience', in a matter of hours
+he was able to teach me the basics of JavaScript in a way that the books that I had been pouring myself over, never could. Thank you so much! I just wish that I could stay and learn even more. 
