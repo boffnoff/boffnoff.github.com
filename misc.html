@@ -25,4 +25,24 @@ layout: master
 
 <p>
   TROLL!! :)
-  </p>      
+  </p>
+<head>
+<script type="text/javascript" charset="utf-8">
+    $(document).ready(function(){
+        $.fn.pinable({
+            closeTitle : 'Close', // default close title
+            containerElement : 'body', // element that pinning html will be prepended to
+            cookieName  : 'example_name', // name of cookie; default is iePinning_yourdomain.com
+            cookieLength : 30, // in days; default is 30 days
+            debug : false, // debug mode; forces the banner to always show, even across browsers
+            discStyle : 'toast', // discoverability style; options are toast, topHat and pushUp
+            dragAlt : 'Drag me!', // default drag icon alt text
+            elementId : 'pinning-discoverability', // Id of banner container that will be injected
+            logoPath : '/discoverability/images/logo.png', // path to the 32px x 32px logo file
+            message : 'Drag this to your Windows taskbar to enable special IE9 Features.',
+            slideDuration : 'fast', // change the slide speed
+            useCookie : true // toggles cookies on/off; default is on
+        });
+    });
+</script>
+</head>
