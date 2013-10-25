@@ -41,7 +41,8 @@ accessed by another function. "box1" contains the (variables) 'var me', and the 
 set to John. In "box2" however the variable has been set to whatever the content of "box1" is, and then to display the result of "me" in the console. This is were the whole idea of "scope" exists. 
 "box2" cannot access anything in "box1" because "box1" is a seperate function, and "scope" dictates that you cannot access, steal, read or write to another seperate function. So the result of running
 the code within "box1" and "box2" will be "undefined" as it cannot access any data. But "box2" has 2 child objects: "box2Inner" and "box2Other". Both of these boxes' "scope" allows them to access 
-their parent object: "box2" and therefore retrieve data from it. However "box2" cannot go down the tree and read information from its children.
+their parent object: "box2" and therefore retrieve data from it. However "box2" cannot go down the tree and read information from its children. So this code will throw up errors, or
+"variable undefined". 
 
 
 
@@ -69,6 +70,33 @@ their parent object: "box2" and therefore retrieve data from it. However "box2" 
     }
     
     box2();
+
+###Next
+
+We used to functions to do basically the same thing, here, the `function callback(me, last){ console.log(me, +last);}` if ran on it's own would return "undefined" as you haven't declared what the 
+variables "me" and "last" are. However when the code `blah(callback);` is ran the code works, and should display "Spongebob Squarepants". The reason that when the code is ran it doesn't display an
+error is because the variables are listed within the function "blah". It's easier to work backwards here. So the last line tells the computer to look for the function "blah", it does, reads it,
+discovers that `var me = 'Spongebob'`, and `var me = 'Squarepants'`. Then it returns to the code at the bottom and reads, `(callback);` so it goes back and reads the function "callback". Within that
+function, although it doesn't give you any variables, it tells the computer to display the results in the console.log. So when ran the output should be: "Spongebob Squarepants"
+
+
+
+
+    function callback(me, last){
+      console.log(me + last);
+    }
+    
+    function blah(cb){
+      var me = 'Spongebob';
+      var last = 'Squarepants';
+      cb(me, last);
+    }
+    
+    blah(callback);
+
+
+
+
 
 
 
