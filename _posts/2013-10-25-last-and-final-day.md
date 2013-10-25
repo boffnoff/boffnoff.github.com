@@ -38,7 +38,9 @@ Now we started to get into the harder, more useful and widely used bits of JavaS
 or structure, I can honestly say that once you get to know them they aren't as bad as they seem. At first look the code below appears to just be a line of rubbish, and in a way it is, but it helped
 me to wrap my head around, and (hopefully) understand the deeper mechanics and uses of them. See here, you have a function called "box1". The stuff inside of it is unique to that box, and cannot be
 accessed by another function. "box1" contains the (variables) 'var me', and the 'var you'. The "=" sign means that the variable has been assigned that value, for example, here the variable me has been
-set to John. In "box2" however 
+set to John. In "box2" however the variable has been set to whatever the content of "box1" is, and then to display the result of "me" in the console. This is were the whole idea of "scope" exists. 
+"box2" cannot access anything in "box1" because "box1" is a seperate function, and "scope" dictates that you cannot access, steal, read or write to another seperate function. So the result of running
+the code within "box1" and "box2" will be "undefined" as it cannot access any data. But "box2" has a child object: "box2Inner"
 
 
 
