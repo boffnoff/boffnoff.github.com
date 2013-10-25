@@ -66,10 +66,9 @@ a:hover, a:focus {
 
 
 
-.misc_page h2 {
+.misc_page, .misc_page h2 {
   color: #AEB404;
   size: 50px;
-  
 }
 
 
