@@ -97,8 +97,26 @@ function, although it doesn't give you any variables, it tells the computer to d
 
 
 
+###Basic Name Structure
+
+SA
 
 
+    var first;
+    var last = 'smith';
+    
+    
+    function callback(){
+      console.log(first + last);
+    }
+    
+    function blah(cb){
+      var me = 'john';  
+      return me;
+    }
+    
+    blah();
+    callback();
 
 
 
