@@ -1,9 +1,15 @@
 body {
   background-color: black;
-  background-image:url('/images/sony_ring.png');
-  background-position:center; 
+  background-position: center; 
   font-family: 'quicksandlight', "Arial", Helvetica, sans-serif;
   color: #fff;
+}
+
+@media all and (min-width:600px){
+  body {
+    background-image:url('/images/sony_ring.png');
+    background-attachment: fixed;
+  }  
 }
 
 /* code below was original wallpaper, the image above replaces that one. */
@@ -180,4 +186,3 @@ code {
   color: silver;
   size: 5px;
 }
-
