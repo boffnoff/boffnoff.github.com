@@ -99,8 +99,10 @@ function, although it doesn't give you any variables, it tells the computer to d
 
 ###Basic Name Structure
 
-Here we are 
-
+Here we are going to get the result "undefinedsmith". This is because the "blah()" function will give us the variable me as being 'john'. Then the "callback()" function will tell the console to
+display the results of `(first + last)`. Earlier I said that functions cannot access other functions because of their "scope", well the "callback()" function can read the variables above it because
+they have not been listed inside of a function. Any function in this script could read those variables at the top. But because `var first` has been left blank, the resultant code will be:
+`undefinedsmith`.
 
     var first;
     var last = 'smith';
@@ -118,9 +120,103 @@ Here we are
     blah();
     callback();
 
+###Another example
+
+Another use of JavaScript is to assign variables a value so that it can be retrieved, and used by any function. By assigning the variable like this we can grab more details from it. This variable not
+only holds a title, "john", it has a `firstName:` and a `lastName:`. When `console.log(john);` is used, the console will return with 
+
+
+    var john = {
+      firstName: 'john',
+      lastName: 'smith'
+    };
+    
+    console.log(john);
+    console.log(john.firstName);
+
+When `console.log(john);` is used, the console select the variable "john", and display all of the information the code has on it. So it will return with:
+
+    [object Object] {
+      firstName: "john",
+      lastName: "smith"
+    }
+
+But if the original code is ran together the result will become:
+
+    [object Object] {
+      firstName: "john",
+      lastName: "smith"
+    }
+    "john"
+
+This is because the selector `console.log(john.firstName);` selects the object "john", just like the code above it, whereas this one specifies even further, by selecting `firstName` the console should
+return with john.
+
+###Another, more complex example (with names)
+
+This code demonstrates the use of people's names as variables, and how to create an array (group) of poeple's and add them to the result.
 
 
 
+
+    var luke = {
+      firstName: 'luke',
+      lastName: 'skywalker',
+      fullName: function(){
+        return this.firstName + ' ' + this.lastName;
+      }
+    };
+    
+    var darth = {
+      firstName: 'darth',
+      lastName: 'maul',
+      fullName: function(){
+        return this.firstName + ' ' + this.lastName;
+      }
+    };
+    
+    //console.log(this); // global context is the Window
+    
+    console.log(luke.fullName());
+    
+    function talk(person){
+      return 'hello ' + person.fullName();
+    }
+    
+    console.log(talk(luke));
+    console.log(talk(darth));
+    
+    function Person(first, last){
+      this.firstName = first;
+      this.lastName = last;
+    }
+    Person.prototype = {
+      fullName: function(){
+        return this.firstName + ' ' + this.lastName;
+      }  
+    };
+    
+    var Padmé = new Person('Padmé', 'Amidala‎');
+    
+    console.log(talk(Padmé‎));
+    
+    var people = [
+      { first: 'obi', last: 'wan' },
+      { first: 'the', last: 'emperor' },
+      { first: 'james', last: 'brown' }
+    ];
+    var allPeople = [];
+    people.forEach(function(data){
+      var person = new Person(data.first, data.last);
+      allPeople.push(person);
+      console.log(person.fullName());
+    });
+    
+    console.log(allPeople[0].fullName())
+    var bob = allPeople[0];
+    console.log(obi.fullName());
+
+The
 
 
 
