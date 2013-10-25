@@ -8,6 +8,7 @@ layout: post
 Somewhow this week has gone way to quickly. I hate the way taht time flies by when you're having fun, because this morning for example we spent 2 hours on walking me through JavaScript basics. For
 this we used [JSbin](http://jsbin.com/OruSetU/1/edit), and if you type in the following into the JavaScript window:
 
+
 ### We started with basic number calculations:
 
     function add(a, b){
@@ -23,12 +24,13 @@ This will return the result:
 <br>
 Then I moved onto harder maths, such as subtracting, multiplying and dividing.
 
+
 ###"Scope" (Just like "I See You" in Avatar)
 
 In JavaScript there is something called "Scope" which effects how every object, function and variable behaves and reacts to each other. The best I can decipher from this is that, no function can
 access another function higher up the "inheritance tree", however an object/function within another object/function is able to access it's "parent" and the data contained within. So in a nut shell
 functions can only ever read up the "tree", as it were, in order to grab data. When you talk about a functions "scope" what they are in-affect saying is how many things can it access to withdraw
-information from
+information from.
 
 
 
@@ -213,14 +215,13 @@ This code demonstrates the use of people's names as variables, and how to create
     });
     
     console.log(allPeople[0].fullName())
-    var bob = allPeople[0];
-    console.log(obi.fullName());
+    var the = allPeople[1];
+    console.log(james.fullName());
 
 The `var people = [` part, a couple of lines up, lists all the names as an array (list). The code below which specifies `allPeople` basically reads the `var people = [` code and sticks them all
 together. Then the code says to seperate them into different objects and treat them as a "person" (by using the template that was created earlier in the same code), and then sorts them as
 `(data.first, data.last)` and passses that on to the line below which pushes the code into the `Person.prototype` which will allow the console to treat the items in the array in the same way it
-handles the others, outside of the array. The line of code following that block
+handles the others, outside of the array. The line of code following that block will return with a list of everyone's names that are within that array. Then the code goes down and gives you the first
+name in the array, "obi wan". Following that it, it will give you the full name of the second variable within that string: "the emperor", and lastly it will tell you the full name of "james": that
+being: "james brown".
 
-
-
-function, scope, object literals.
