@@ -216,7 +216,10 @@ This code demonstrates the use of people's names as variables, and how to create
     var bob = allPeople[0];
     console.log(obi.fullName());
 
-The `var people = [` part, a couple of lines up, lists all the names as an array (list). and the code below witihn th 
+The `var people = [` part, a couple of lines up, lists all the names as an array (list). The code below which specifies `allPeople` basically reads the `var people = [` code and sticks them all
+together. Then the code says to seperate them into different objects and treat them as a "person" (by using the template that was created earlier in the same code), and then sorts them as
+`(data.first, data.last)` and passses that on to the line below which pushes the code into the `Person.prototype` which will allow the console to treat the items in the array in the same way it
+handles the others, outside of the array. The line of code following that block
 
 
 
