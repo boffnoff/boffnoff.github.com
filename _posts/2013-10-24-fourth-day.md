@@ -5,8 +5,8 @@ layout: post
 
 ## Day 4 is upon us
 
-So the first task ahead of us today is to sort out that pesky "fourth-day.html" file that went AWOL. First task is to clean up index.css, and then to continue working in this new
-markdon language. After that I need to add spacing to my headers and style the footers and headers. But since I already have, here's what they look like, firstly the "main_header":
+So the first task ahead of us today is to sort out that pesky "fourth-day.html" file that went AWOL. The second task is to clean up index.css, and then to continue working in this new
+markdone language. After that I need to add spacing to my headers and style the footers and headers. But since I already have, here's what they look like, firstly the "main_header":
 
     .main_header {
       padding: 15px;
@@ -106,7 +106,7 @@ As thats what it looks like now, but when you view the pages now, it will have c
     overflow: hidden;
     }
 
-No that I had finally got that sorted out, I turned my attention a new page, "misc.html". But have reached a stump as I cannot provide myself with the code required to create a slideshow
+Now that I had finally got that sorted out, I turned my attention a new page, "misc.html". But have reached a stump as I cannot provide myself with the code required to create a slideshow
 of my Graphics work, even web based pages that create it for you aren't working. So instead me and Dave sat down and had a look through his work for a bug that he had been looking for, for
 ages. We found it, and then we turned our attention to one that had been "bugging" me for ages. It turned out that it was a simple typeo in the address of a link! A silly mistake, that was
 preventing some aspects of my CSS to show through onto the page.
