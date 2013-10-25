@@ -216,7 +216,7 @@ This code demonstrates the use of people's names as variables, and how to create
     var bob = allPeople[0];
     console.log(obi.fullName());
 
-The
+The `var people = [` part, a couple of lines up, lists all the names as an array (list). and the code below witihn th 
 
 
 
