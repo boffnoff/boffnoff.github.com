@@ -5,7 +5,7 @@ layout: post
 
 ## Day 5 already? :(
 
-Somewhow this week has gone way to quickly. I hate the way taht time flies by when you're having fun, because this morning for example we spent 2 hours on walking me through JavaScript basics. For
+Somewhow this week has gone way to quickly. I hate the way that time flies by when you're having fun, because this morning for example we spent 2 hours on walking me through JavaScript basics. For
 this we used [JSbin](http://jsbin.com/OruSetU/1/edit), and if you type in the following into the JavaScript window:
 
 
