@@ -2,6 +2,9 @@
 title: My Last Day
 layout: post
 ---
+<head>
+<title>My Last Day</title>
+<head>
 
 ## Day 5 already? :(
 

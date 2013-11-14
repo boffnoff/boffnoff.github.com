@@ -2,6 +2,9 @@
 title: My Fourth Day
 layout: post
 ---
+<head>
+<title>My Fourth Day</title>
+</head>
 
 ## Day 4 is upon us
 
