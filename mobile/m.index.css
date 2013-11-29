@@ -19,7 +19,7 @@ a { text-decoration: none; }
     position: absolute;
     left: 20px;
     top: 20px;
-    color: white;
+    color: #CCCCCC;
     font-size: 32px;
   }
 }
@@ -58,6 +58,10 @@ a { text-decoration: none; }
     width: 34px;
     background: linear-gradient(left, rgba(black, 0), rgba(black, 0.4));
   }
+}
+
+.content {
+  padding: 100px 20px 20px 20px;
 }
 
 .close-menu {
