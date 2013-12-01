@@ -119,7 +119,7 @@
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.4);
 }
 #cssmenu ul ul > li:hover > ul {
-  opwcity: 1;
+  opacity: 1;
   left: 190px;
   visibility: visible;
 }
