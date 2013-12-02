@@ -1,0 +1,95 @@
+---
+title: Home
+layout: master
+---
+<head>
+    <title>Boffnoff.me Home</title>
+    <link href="../styles.css" rel="stylesheet" type="text/css">
+</head>
+
+
+<div class="intro">
+  <p>From the 21st - 25th October I was on Work Experience with <a href="https://github.com/davetayls">Dave Taylor, and it was a brilliant experience. Thank you!</a> 
+  </p>
+</div>
+<p>
+  In a galaxy far far away, a long time ago. I once worked with a group of small dwarfs who loved typing up code. They were a small but friendly community of all males, and their hierarchy was
+  arranged as so:
+  <br>
+  <br>
+  Guy with the best/biggest beard is the Alpha Dwarf
+  <br>
+  The guy with a respectable amount of facial hair is the Alpha Dwarf's right hand man
+  <br>
+  The guy who wears a pitiful display of stubble is suitable crushed and spat upon by all those lucky enough to have more hair than him.
+</p>
+
+
+<!--
+<p>
+   The difference between school and life? 
+    <br>
+In school, you are taught a lesson and then given a test. In life, you are given a test that teaches you a lesson.
+    <br>
+-Tom Bodett
+    
+</p> -->
+
+
+<!--
+<p>Click the button to display an alert box.</p>
+
+<button onclick="myFunction()">Epic Quote</button>
+
+<script>
+function myFunction()
+{
+alert("The difference between school and life? In school, you're taught a lesson and then given a test. In life, you are given a test that teaches you a lesson. -Tom Bodett");
+}
+</script>        -->
+
+
+<!--
+
+<div id='cssmenu'>
+<ul>
+   <li class='active'><a href='index.html'><span>Home</span></a></li>
+   <li class='has-sub'><a href='#'><span>Articles</span></a>
+      <ul>
+         <li class='has-sub'><a href='#'><span>Work Experience</span></a>
+            <ul>
+               <li><a href='http://boffnoff.github.io/2013/10/21/first-day.html'><span>My First Day (21/10/2013)</span></a></li>
+               <li><a href='#'><span>My Second Day (22/10/2013)</span></a></li>
+               <li class='last'><a href='http://boffnoff.github.io/2013/10/23/third-day.html'><span>My Third Day (23/10/2013)</span></a></li>
+            </ul>
+         </li>
+         <li class='has-sub'><a href='#'><span>Other</span></a>
+            <ul>
+               <li><a href='#'><span>Sub Item</span></a></li>
+               <li class='last'><a href='#'><span>Sub Item</span></a></li>
+            </ul>
+         </li>
+      </ul>
+   </li>
+   <li><a href='http://boffnoff.github.io/about.html'><span>About Me</span></a></li>
+   <li class='last'><a href='#'><span>Contact</span></a></li>
+</ul>
+</div>
+
+-->
+
+
+<ul class="menu"> 
+{% for post in site.posts limit:14 %}
+    <li>
+        <a href="{{ post.url }}">
+          <span>
+            {{ post.title }}
+            <time datetime="{{ post.date | date_to_xmlschema }}">
+              {{ post.date | date:"%b %d %Y" }}
+            </time>
+          </span>
+        </a>
+    </li>
+{% endfor %}
+</ul>
