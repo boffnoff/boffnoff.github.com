@@ -5,7 +5,23 @@ layout: master
 <head>
     <title>Boffnoff.me Home</title>
     <link href="../styles.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<link rel="stylesheet" type="text/css" media="screen" href="mobile.css"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$(".nav-button").click(function () {
+			$(".nav-button,.primary-nav").toggleClass("open");
+			});    
+		});
+	</script>
 </head>
+
+<button class="nav-button">Toggle Navigation</button>
+<ul class="primary-nav">
+
+	</ul>
+
 
 
 <div class="intro">
