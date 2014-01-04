@@ -1,8 +1,8 @@
 body {
-  background-color: white;
+  background-color: black;
   background-position: center; 
   font-family: 'quicksandlight', "Arial", Helvetica, sans-serif;
-  color: #1D62F0;
+  color: #fff;
 }
 
 @media all and (min-width:600px){
@@ -10,6 +10,19 @@ body {
     background-image:url('/images/sony_ring.png');
     background-attachment: fixed;
   }  
+}
+
+@media all and (max-width:599px){
+  body {
+    background-color: white;
+    }
+  p {
+    color: #1D62F0;
+    }  
+  h1 {
+    color: #898C90;
+    font-size: 70px;
+    }  
 }
 
 /* code below was original wallpaper, the image above replaces that one. */
