@@ -1,5 +1,10 @@
-boffnoff21.github.com
-=====================
-
-My Blog <br>
-This URL has been auto-redirected to "boffnoff.me"
+Robin Stanley
+==========
+Version:
+----
+1.0 (Beta)
+----
+Website URL:
+```sh
+boffnoff.me
+```
