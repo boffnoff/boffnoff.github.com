@@ -39,6 +39,7 @@ License: CC BY 3.0 http://creativecommons.org/licenses/by/3.0/
 	margin:0 auto !important;
 	overflow:hidden;
 	list-style:none;
+    color: #FFF
 }
 
 
@@ -62,6 +63,7 @@ License: CC BY 3.0 http://creativecommons.org/licenses/by/3.0/
 	position:relative;
 	overflow:hidden;
 	margin:0 auto !important;
+    color: #FFF
 }
 .rmm-button:hover {
 	cursor:pointer;
@@ -70,10 +72,12 @@ License: CC BY 3.0 http://creativecommons.org/licenses/by/3.0/
 	display:none;
 	margin:0px !important;
 	padding:0px !important;
+    color: #FFF
 }
 .rmm .rmm-toggled ul li {
 	display:block;
 	margin:0 auto !important;
+    color: #FFF
 }
 
 
@@ -269,7 +273,10 @@ border-bottom-right-radius: 5px;
 /* MINIMAL STYLE */
 
 .rmm.minimal a {
+/* old color:    
 	color:#333333;
+*/
+    color: #FFF
 }
 .rmm.minimal a:hover {
 	opacity:0.7;
