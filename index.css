@@ -201,3 +201,36 @@ code {
   color: silver;
   size: 5px;
 }
+
+
+
+/* ANYTHING PAST THIS POINT IS PURELY FOR TESTING GROUND PURPOSES! */
+
+
+.circle {
+    border-radius: 50%/50%; 
+    width: 50px;
+    height: 50px;
+    background: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
