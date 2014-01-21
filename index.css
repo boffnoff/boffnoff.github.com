@@ -88,6 +88,8 @@ a:hover, a:focus {
 
 
 .misc_page, .misc_page h2 {
+  border-top-left-radius:2em;
+  -webkit-border-top-left-radius:2em; /* Safari */
   color: gold;
   size: 100px;
 }
