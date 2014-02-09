@@ -253,17 +253,6 @@ to {left:200px;}
 body {
     overflow-y: scroll;
     overflow-x: hidden;
-    scrollbar-base-color: #C0C0C0;
-    scrollbar-base-color: #C0C0C0;
-    scrollbar-3dlight-color: #C0C0C0;
-    scrollbar-highlight-color: #C0C0C0;
-    scrollbar-track-color: rgba(0,0,0,0.00005);
-    scrollbar-arrow-color: black;
-    scrollbar-shadow-color: #C0C0C0;
-    scrollbar-dark-shadow-color: #C0C0C0;
-   
-    
-}
 
 ::-webkit-scrollbar {
     width: 12px;
@@ -280,10 +269,9 @@ body {
 ::-webkit-scrollbar-thumb {
     -webkit-border-radius: 5px;
     border-radius: 5px;
-    background: rgba(127, 127, 1, 0.98)); 
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+    -webkit-box-shadow: inset 0 0 6px rgba(1,0,0,0.8); 
 }
-::-webkit-scrollbar-thumb:window-inactive {
+::-webkit-scrollbar-thumb:inactive {
 	background: rgba(255,0,0,0.4); 
 }
 
