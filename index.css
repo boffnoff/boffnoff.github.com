@@ -6,7 +6,7 @@ body {
 }
 
 
-p, h2, h3, h4, h5 {
+p, h2, h3, h4, h5, .content, {
    color: #111;
    }
    
