@@ -6,7 +6,7 @@ body {
 }
 
 
-p, h1, h2, h3, h4, h5 {
+p, h2, h3, h4, h5 {
    color: #111;
    }
    
@@ -17,13 +17,6 @@ p, h1, h2, h3, h4, h5 {
     background-attachment: fixed;
   }  
   
-  h1 {
-  text-align:center;
-  color: #FAFAFA;
-  font-size: 90px;
-  font-family: 'absender', Arial, sans-serif;
-}
-
   
 }
 
@@ -62,7 +55,12 @@ body {
 
 
 
-
+ h1 {
+  text-align:center;
+  color: #FAFAFA;
+  font-size: 90px;
+  font-family: 'absender', Arial, sans-serif;
+}
 
 @font-face {
 	font-family: 'absender';
