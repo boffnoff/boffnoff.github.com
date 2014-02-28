@@ -17,6 +17,13 @@ p, h2, h3, h4, h5 {
     background-attachment: fixed;
   }  
   
+  p {
+  border-left: solid 3px #00FFFF;
+  border-right: solid 3px #00FFFF;
+  color: #FFFFFF;
+  background: rgba(0,0,0,0.5);
+  padding: 15px;
+}
   
 }
 
@@ -105,13 +112,10 @@ a:hover, a:focus {
 
 
 
-p {
-  border-left: solid 3px #00FFFF;
-  border-right: solid 3px #00FFFF;
-  color: #FFFFFF;
-  background: rgba(0,0,0,0.5);
-  padding: 15px;
-}
+
+
+
+
 
 h2,
 h3,
