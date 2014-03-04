@@ -27,7 +27,7 @@ p, h2, h3, h4, h5, {
 @media all and (min-width:600px){
 
   p {
-  color: #FFFFFF;
+  color: #111;
    padding: 15px;
 }
   
