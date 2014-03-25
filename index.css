@@ -266,7 +266,8 @@ to {left:100px;}
 from {left:0px;}
 to {left:200px;}
 }
-#nuclearcirlcle {
+
+#nuclear {
 width: 0px;
 height: 0px;
 border-right: 60px solid purple;
@@ -275,7 +276,7 @@ border-bottom: 60px solid blue;
 -moz-border-radius: 60px;
 -webkit-border-radius: 60px;
 border-radius: 60px;
-}​
+}
 
 
 
