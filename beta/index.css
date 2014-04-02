@@ -12,7 +12,7 @@ root {
 }
 
 body {
-  background-color: #878787;
+  background-color: rgba(17, 17, 17, 0.5);
   background-position: center; 
   font-family: 'quicksandlight', "Arial", Helvetica, sans-serif;
 
