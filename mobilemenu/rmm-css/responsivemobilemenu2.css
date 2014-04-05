@@ -282,7 +282,7 @@ border-bottom-right-radius: 5px;
 /* MINIMAL STYLE */
 
 .rmm.minimal {
-    background: rgba(17,17,17,1);
+    background: rgba(255,255,255,0.9);
   }
 
 .rmm.minimal a {
