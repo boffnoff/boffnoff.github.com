@@ -131,3 +131,18 @@ h3 {
   margin-left: 30px; 
   margin-right: 30px;
 }
+
+
+
+
+
+
+
+
+/* TESTING STUFF FOR GALLERY PAGE */
+
+#test-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
