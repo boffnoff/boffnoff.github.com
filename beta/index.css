@@ -99,21 +99,26 @@ The following code indicates that when ever you mouse over a link, the text will
 
 */
 
-
-a:visited {
-  color: yellow;
-  
+a, a:link{
+    color: #008EB4;
 }
 
-a,
-a:link {
-  color: #CCCCCC
+ a:visited{
+     color: spin(#008EB4, 72);
 }
 
-a:hover, a:focus {
-  color:red;
- text-decoration:underline;
+
+i{
+    color: #008EB4;
+ n(#008EB4, 72);
+ 8EB4, 5%);
+    text-decoration: underline
 }
+
+a:active{
+    text-decoration: none;
+}
+
 
 
 
@@ -121,11 +126,9 @@ a:hover, a:focus {
 
 h2,
 h3, 
-  color: black;
-  background: rgba(0,255,255,0.7);
-  box-shadow: 0 8px 5px rgba(0,0,0,0.3);
-  padding: 15px;
+  color: #008EB4;
 }
+
 
 h3 {
   margin-left: 30px; 
@@ -143,3 +146,156 @@ h3 {
 
 
 
+
+
+
+
+
+
+
+
+
+
+.container {
+  width:300px;
+  margin:5% auto;
+  text-align:center;
+}
+
+.loader {
+  overflow:hidden;
+  width:130px;
+  animation: loadingwrap 3s;
+  transform: translateX(-20px);
+  animation-iteration-count: infinite;
+}
+
+.loader span {
+  display:inline-block;
+  background:#F00;
+  width:3px;
+  height:3px;
+  border-radius:100%;
+  margin:2px;
+}
+
+span.dot1 {
+   animation: loading 3s;
+   transform: translateX(-140px);
+   animation-iteration-count: infinite;
+
+}
+
+span.dot2 {
+   animation: loading2 3s;
+   transform: translateX(-110px);
+   animation-iteration-count: infinite;
+
+}
+
+span.dot3 {
+   animation: loading3 3s;
+   transform: translateX(-80px);
+   animation-iteration-count: infinite;
+
+}
+
+
+span.dot4 {
+   animation: loading4 3s;
+   transform: translateX(-50px);
+   animation-iteration-count: infinite;
+}
+
+
+@keyframes loading {
+from {
+opacity:0;
+}
+40%
+{
+opacity:1;
+ transform: translateX(0px);
+}
+60%
+{
+opacity:1;
+ transform: translateX(0px);
+}
+to
+{
+opacity:0;
+ transform: translateX(50px);
+}
+}
+
+
+@keyframes loading2 {
+from {
+opacity:0;
+}
+40%
+{
+opacity:1;
+ transform: translateX(0px);
+}
+60%
+{
+opacity:1;
+ transform: translateX(0px);
+}
+to
+{
+opacity:0;
+ transform: translateX(80px);
+}
+}
+
+@keyframes loading3 {
+from {
+opacity:0;
+}
+40%
+{
+opacity:1;
+ transform: translateX(0px);
+}
+60%
+{
+opacity:1;
+ transform: translateX(0px);
+}
+to
+{
+opacity:0;
+ transform: translateX(110px);
+}
+}
+
+@keyframes loading4 {
+from {
+opacity:0;
+}
+40%
+{
+opacity:1;
+ transform: translateX(0px);
+}
+60%
+{
+opacity:1;
+ transform: translateX(0px);
+}
+to
+{
+opacity:0;
+ transform: translateX(140px);
+}
+}
+
+@keyframes loadingwrap {
+to
+{
+ transform: translateX(80px);
+}
+}
