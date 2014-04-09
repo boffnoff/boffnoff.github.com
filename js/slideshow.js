@@ -7,15 +7,11 @@
 */
 
 
-window.onload = initLinks;
-
-var myPix = new Array("/gallery/badge_on_the_edge_poster.png","/gallery/double_or_die_cover.png",
-                             "/gallery/line_&_scribble.png","/gallery/on_the_edge_film_festival_poster.png");
-var thisPic = 0;
-
-function initLinks() {
-    document.getElementById("prevLink").onclick = processPrevious;
-    document.getElementbyId("nextLink").onclick = processNext;
-}
-
-function
+$(window).load(function() {
+  $('.flexslider').flexslider({
+    animation: "slide",
+    animationLoop: false,
+    itemWidth: 210,
+    itemMargin: 5
+  });
+});
