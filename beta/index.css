@@ -169,13 +169,15 @@ h3 {
  	-webkit-box-shadow:inset 1px 1px 0px 0px #ffffff;
  	-moz-box-shadow:inset 1px 1px 0px 0px #ffffff;
  	box-shadow:inset 1px 1px 0px 0px #ffffff;
-}.css_btn_class:hover {
+    }
+.css_btn_class:hover {
 	background:-moz-linear-gradient( center top, #f6f6f6 5%, #ffffff 100% );
 	background:-ms-linear-gradient( top, #f6f6f6 5%, #ffffff 100% );
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f6f6f6', endColorstr='#ffffff');
 	background:-webkit-gradient( linear, left top, left bottom, color-stop(5%, #f6f6f6), color-stop(100%, #ffffff) );
 	background-color:#f6f6f6;
-}.css_btn_class:active {
+}
+.css_btn_class:active {
 	position:relative;
 	top:1px;
 }
