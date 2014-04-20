@@ -12,14 +12,17 @@ root {
 }
 
 body {
-  /*  
-  
+  /*   
 background-image:url("img_tree.png");
 background-repeat:no-repeat;
-    
-    IMAGE BACKGROUND LInks
-    */
-  background-color: #111;
+*/    
+  background-image: -ms-linear-gradient(top, #F7F7F7 0%, #111111 100%);
+  background-image: -moz-linear-gradient(top, #F7F7F7 0%, #111111 100%);
+  background-image: -o-linear-gradient(top, #F7F7F7 0%, #111111 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #F7F7F7), color-stop(1, #111111));
+  background-image: -webkit-linear-gradient(top, #F7F7F7 0%, #111111 100%);
+  background-image: linear-gradient(to bottom, #F7F7F7 0%, #111111 100%); 
+       
   background-position: center; 
   font-family: 'quicksandlight', "Arial", Helvetica, sans-serif;
   color: #fff;
