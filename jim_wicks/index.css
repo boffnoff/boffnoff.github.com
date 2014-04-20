@@ -12,7 +12,8 @@ root {
 }
 
 body {
-  background-color: #F0F8FF;
+  background-image:url("bg.png");
+  background-repeat:no-repeat;
   background-position: center; 
   font-family: 'quicksandlight', "Arial", Helvetica, sans-serif;
 
