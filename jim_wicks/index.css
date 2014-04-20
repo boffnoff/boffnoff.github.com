@@ -12,8 +12,14 @@ root {
 }
 
 body {
-  background-image:url("bg.png");
-  background-repeat:no-repeat;
+  /*  
+  
+background-image:url("img_tree.png");
+background-repeat:no-repeat;
+    
+    IMAGE BACKGROUND LInks
+    */
+  background-color: #111;
   background-position: center; 
   font-family: 'quicksandlight', "Arial", Helvetica, sans-serif;
 
@@ -21,7 +27,7 @@ body {
 
 
 p, h2, h3, h4, h5, {
-   color: #111;
+   color: #fff;
    }
 
 
@@ -47,7 +53,7 @@ p, h2, h3, h4, h5, {
     color: #1D62F0;
     }  
   h1 {
-    color: #111
+    color: #fff
     font-size: 70px;
     }  
 }
@@ -76,7 +82,7 @@ body {
 
  h1 {
   text-align:center;
-  color: #111
+  color: #fff
   font-size: 90px;
   font-family: 'absender', Arial, sans-serif;
 }
