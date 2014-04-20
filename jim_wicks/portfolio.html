@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Effe - About</title>
+<title>Effe - Portfolio</title>
 <link rel="shortcut icon" href="favicon.ico" />
 <!-- Load CSS -->
 <link href="css/style.css" rel="stylesheet" type="text/css" />
@@ -16,6 +16,8 @@
 <script type="text/javascript" src="scripts/custom.js"></script>
 <!-- Load topcontrol js -->
 <script type="text/javascript" src="scripts/scrolltopcontrol.js"></script>
+<!-- Load quicksand script -->
+<script type="text/javascript" src="scripts/jquery.quicksand.js"></script>
 <!-- Load NIVO Slider -->
 <link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="css/nivo-theme.css" type="text/css" media="screen" />
@@ -34,8 +36,8 @@
   <div id="header">
     <div id="logo"><a href="index.html"><img src="images/logo.png" width="100" height="80" alt="logo" /></a></div>
     <div id="header-text">
-      <h4>So want to know more about our creative team?</h4>
-      <h6><a href="index.html">Home</a> → About</h6>
+      <h4>This is our portfolio, our latest stuff is here!</h4>
+      <h6><a href="index.html">Home</a> → Portfolio</h6>
     </div>
   </div>
 </div>
@@ -45,8 +47,8 @@
   <div id="main-menu">
     <ul>
       <li><a href="index.html">Home</a></li>
-      <li><a class="selected" href="about.html">About →</a></li>
-      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a class="selected" href="portfolio.html">Portfolio →</a></li>
       <li><a href="blog.html">Blog</a></li>
       <li><a href="contact.html">Contact</a></li>
       <li><a href="features.html">Features</a></li>
@@ -74,27 +76,47 @@
 <!--END of menu-->
 <!--This is the START of the content-->
 <div id="content">
+  <!--This is the START of the portfolio section-->
   <div class="spacer"></div>
-  <div class="team-text">
-    <h2>This is a bit about me...</h2>
-	<div class="star-divider"></div>
-    <h5>You can check me out via my social links!</h5>
+  <div id="filter"></div>
+  <img class="star-divider" src="images/subscribe_divider.png" />
+  <div id="container">
+    <ul id="stage">
+      <li data-tags="Print Design"><a href="project-sample.html"><img src="images/portfolio/thumbs/image(1).jpg" alt="Illustration" /></a>
+        <h6>Helvetica</h6>
+        <p>Kinda sweet huh?<a class="readmore" href="project-sample.html">view →</a></p>
+      </li>
+      <li data-tags="Logo Design,Print Design"><a href="project-sample.html"><img src="images/portfolio/thumbs/image(2).jpg" alt="Illustration" /></a>
+        <h6>Typography</h6>
+        <p>Lorem ipsum here.<a class="readmore" href="project-sample.html">view →</a></p>
+      </li>
+      <li data-tags="Web Design,Logo Design"><a href="project-sample.html"><img src="images/portfolio/thumbs/image(3).jpg" alt="Illustration" /></a>
+        <h6>Ideas</h6>
+        <p>A light bulb!<a class="readmore" href="project-sample.html">view →</a></p>
+      </li>
+      <li data-tags="Web Design,Print Design"><a href="project-sample.html"><img src="images/portfolio/thumbs/image(4).jpg" alt="Illustration" /></a>
+        <h6>Rockable press</h6>
+        <p>Best books around.<a class="readmore" href="project-sample.html">view →</a></p>
+      </li>
+      <li data-tags="Logo Design"><a href="project-sample.html"><img src="images/portfolio/thumbs/image(5).jpg" alt="Illustration" /></a>
+        <h6>Moo Cards</h6>
+        <p>Gotta lovem'.<a class="readmore" href="project-sample.html">view →</a></p>
+      </li>
+      <li data-tags="Web Design,Logo Design,Print Design"><a href="project-sample.html"><img src="images/portfolio/thumbs/image(6).jpg" alt="Illustration" /></a>
+        <h6>Moo Minicards</h6>
+        <p>So small and cool.<a class="readmore" href="project-sample.html">view →</a></p>
+      </li>
+      <li data-tags="Logo Design,Print Design"><a href="project-sample.html"><img src="images/portfolio/thumbs/image(7).jpg" alt="Illustration" /></a>
+        <h6>Moo Printing</h6>
+        <p>Is inside.<a class="readmore" href="project-sample.html">view →</a></p>
+      </li>
+      <li data-tags="Web Design"><a href="project-sample.html"><img src="images/portfolio/thumbs/image(8).jpg" alt="Illustration" /></a>
+        <h6>Just say it!</h6>
+        <p>Printed.<a class="readmore" href="project-sample.html">view →</a></p>
+      </li>
+    </ul>
   </div>
-  <div class="spacer"></div>
-  <div class="about">
-    <h5>I make some sweet designs.</h5>
-    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel
-      Dapibus id, mattis vel, nisi. Sed pretium, ligula sollici tudin ot justo. Suspendisse potenti.Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus
-      Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor liber
-      sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti.Sed egestas, ante et vulputate volutpat</p>
-	  <div class="spacer"></div>
-    <h5>And I offer design packages for you!</h5>
-    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel
-      Dapibus id, mattis vel, nisi. Sed pretium, ligula sollici tudin ot justo. Suspendisse potenti.Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus
-      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-	  <a class="single_image" href="images/about/large/pricing-table.jpg"><img src="images/about/large/pricing-table.jpg" width="720" height="500" alt="pricing" /></a>
-  </div>
-  <div class="spacer"></div>
+  <!--END of portfolio section-->
 </div>
 <!--END of content-->
 <p class="slide"><a href="#" class="btn-slide"></a></p>
