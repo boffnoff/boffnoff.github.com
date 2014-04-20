@@ -22,7 +22,7 @@ background-repeat:no-repeat;
   background-color: #111;
   background-position: center; 
   font-family: 'quicksandlight', "Arial", Helvetica, sans-serif;
-
+  color: #fff;
 }
 
 
@@ -39,7 +39,7 @@ p, h2, h3, h4, h5, {
 @media all and (min-width:600px){
 
   p {
-  color: #111;
+  color: #fff;
    padding: 15px;
 }
   
