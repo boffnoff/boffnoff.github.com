@@ -227,3 +227,44 @@ code {
 
 
 <!-- BETA PAGE JUMP IN BUTTON CSS \/ -->
+
+
+
+
+
+
+
+
+@-webkit-keyframes bounceup {
+      0%     { width:80px; height:80px; }
+      25%    { width:220px; height:220px; }
+      50%    { width:160px; height:160px; }
+      75%    { width:180px; height:180px; }
+      100%   { width:160px; height:160px; }
+    }
+    
+    @-webkit-keyframes bouncedown {
+      0%     { width:160px; height:160px; }
+      25%    { width:80px; height:80px; }
+      50%    { width:100px; height:100px; }
+      75%    { width:80px; height:80px; }
+      90%    { width:90px; height:90px; }
+      100%   { width:80px; height:80px; }
+    }
+    
+    #button {
+      width:80px;
+      height:80px;
+      background-color:#f00;
+       -webkit-transition: all .5s ease-in-out;
+      
+    }
+
+    
+    #button:hover {
+      width:160px;
+      height:160px;
+      -webkit-animation-name:bounceup;
+      -webkit-animation-duration:1s;
+    }
+
