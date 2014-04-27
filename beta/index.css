@@ -153,3 +153,11 @@ h3 {
 
 
 <!-- BETA PAGE JUMP IN BUTTON CSS \/ -->
+
+
+
+.jumpin {
+  border: 1px solid white;
+  display: inline-block;
+  padding: 0.3em 1em 0.5em 1em;
+}
