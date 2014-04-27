@@ -99,7 +99,7 @@ As thats what it looks like now, but when you view the pages now, it will have c
     }
 
 
-    .pagig_next {
+    .paging_next {
       text-align: left;
     }
     
