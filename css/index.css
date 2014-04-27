@@ -148,8 +148,70 @@ h3 {
 	border-radius: 50%;
 	width: 500px;
 	height: 200px; 
-	
 }
+
+
+
+pre {
+  font-family: monospace;
+  background: black;
+  padding: 15px 10px;
+  overflow: auto;
+}
+code { 
+  font-family: monospace;
+  background: black;
+  color: white;
+  padding: 0 3px;
+}
+
+.paging, .paging li{
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+}
+
+.paging {
+  overflow: hidden;
+}
+.paging li {
+  padding: 15px;
+}
+.paging__previous {
+  float: left;
+}
+
+.paging__next {
+  float:right;
+}
+
+.menu,
+.menu-horizontal,
+.menu li,
+.menu-horizontal li {
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 15px;
+}
+
+.menu-horizontal {
+  display: block;
+  text-align: right;
+}
+.menu-horizontal li {
+  display: inline;
+}
+
+
+.page_footer {
+  color: silver;
+  size: 5px;
+}
+
 
 
 <!-- BETA PAGE JUMP IN BUTTON CSS \/ -->
