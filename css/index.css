@@ -1,5 +1,18 @@
+/*
+    Document   : /index.css
+    UPDATED ON : 2014-04-27 01:04 PM
+    Author     : boffnoff21
+    Description:
+    Purpose of the stylesheet follows.
+    To change this template use Tools | Templates.
+*/
+
+root {
+    display: block;
+}
+
 body {
-  background-color: #8E8E93;
+  background-color: #F0F8FF;
   background-position: center; 
   font-family: 'quicksandlight', "Arial", Helvetica, sans-serif;
 
@@ -10,43 +23,33 @@ p, h2, h3, h4, h5, {
    color: #111;
    }
 
+
+.intro p {  
+  background: rgba(255,255,255,0.9);
+  padding: 5px
+}
    
 @media all and (min-width:600px){
-  body {
-    background-image:url('/images/sony_ring.png');
-    background-attachment: fixed;
-  }  
-  
+
   p {
-  border-left: solid 3px #00FFFF;
-  border-right: solid 3px #00FFFF;
-  color: #FFFFFF;
-  background: rgba(0,0,0,0.5);
-  padding: 15px;
+  color: #111;
+   padding: 15px;
 }
   
 }
 
-/* FOLLOWING CODE IS FOR MOBILE RESIZING OF THE PAGE */
 @media screen and (min-device-width: 1px) and (max-device-width: 599px) { 
-    body {
-        background-color: #8E8E93;
+  body {
+    background-color: #8E8E93;
+    }
+  p {
+    color: #1D62F0;
+    }  
+  h1 {
+    color: #111
+    font-size: 70px;
+    }  
 }
-    
-    p {
-        color: #1D62F0;
-}  
-    
-    h1 {
-        color: #111
-            font-size: 70px;
-}
-
-}
-
-
-
-
 
 /* code below was original wallpaper, the image above replaces that one. */
 
@@ -72,7 +75,7 @@ body {
 
  h1 {
   text-align:center;
-  color: #FAFAFA;
+  color: #111
   font-size: 90px;
   font-family: 'absender', Arial, sans-serif;
 }
@@ -84,149 +87,8 @@ body {
 }
 
 
-
-/* 
-
-The following code indicates that when ever you mouse over a link, the text will chnage colour to red, enlarge by 150% and underline the link
-
-*/
-
-
-a:visited {
-  color: yellow;
-  
-}
-
-a,
-a:link {
-  color: #CCCCCC
-}
-
-a:hover, a:focus {
-  color:red;
- text-decoration:underline;
-}
-
-
-
-.misc_page, .misc_page h2 {
-  border-top-left-radius:2em;
-  -webkit-border-top-left-radius:2em; /* Safari */
-  color: gold;
-  size: 100px;
-}
-
-
-
-
-
-
-
-
-
-
-h2,
-h3,
-.days {
-  color: black;
-  background: rgba(0,255,255,0.7);
-  box-shadow: 0 8px 5px rgba(0,0,0,0.3);
-  padding: 15px;
-}
-
-h3 {
-  margin-left: 30px; 
-  margin-right: 30px;
-}
-
-
-h4, h5, h6 {
-  color: #fff;
-  background: rgba(0,255,255,0.7);
-  box-shadow: 0 8px 5px rgba(0,0,0,0.3);
-  padding: 5px;
-  margin-left: 50px;
-  margin-right: 50px;
-  }  
-
-
-
-.intro {
-  color: purple;
-  background: rgba(0,255,255,0.7);
-  box-shadow: 0 8px 5px rgba(0,0,0,0.3);
-  padding: 15px;
-}
-
-.intro p { background: rgba(0,0,0,0.4);
-  border-top-color: blue;
-  padding: 10px
-}
-
-pre {
-  font-family: monospace;
-  background: black;
-  padding: 15px 10px;
-  overflow: auto;
-}
-code { 
-  font-family: monospace;
-  background: black;
-  color: white;
-  padding: 0 3px;
-}
-
-.paging, .paging li{
-  list-style: none outside none;
-  margin: 0;
-  padding: 0;
-}
-
-.paging {
-  overflow: hidden;
-}
-.paging li {
-  padding: 15px;
-}
-.paging__previous {
-  float: left;
-}
-
-.paging__next {
-  float:right;
-}
-
-.menu,
-.menu-horizontal,
-.menu li,
-.menu-horizontal li {
-  list-style: none outside none;
-  margin: 0;
-  padding: 0;
-}
-
-.menu li {
-  padding: 15px;
-}
-
-.menu-horizontal {
-  display: block;
-  text-align: right;
-}
-.menu-horizontal li {
-  display: inline;
-}
-
-
-.page_footer {
-  color: silver;
-  size: 5px;
-}
-
-
-
 #sticky-header {
-  background: rgba(0,0,1,0.5);
+ 
     position: fixed;
     width: 100%;
     height: 50px;
@@ -235,27 +97,59 @@ code {
     z-index: 1;
 }
 
-#container{ 
-    margin-top: 50px;
+
+/* 
+
+The following code indicates that when ever you mouse over a link, the text will chnage colour to red, enlarge by 150% and underline the link
+
+*/
+
+a, a:link{
+    color: #008EB4;
+}
+
+ a:visited{
+     color: spin(#008EB4, 72);
+}
+
+
+i{
+    color: #008EB4;
+    n(#008EB4, 72);
+    8EB4, 5%);
+    text-decoration: underline
+}
+
+a:active{
+    text-decoration: none;
 }
 
 
 
 
-/* ANYTHING PAST THIS POINT IS PURELY FOR TESTING GROUND PURPOSES! */
 
-.box {
-width:100px;
-height:100px;
-background:red;
-position:relative;
-animation:mymove 5s infinite;
--webkit-animation:mymove 5s infinite; /*Safari and Chrome*/
+
+h2,
+h3, 
+  color: #008EB4;
 }
+
+
+h3 {
+  margin-left: 30px; 
+  margin-right: 30px;
+}
+
+
+
 
 
 .circle {
-    
-    
-    
+	border-radius: 50%;
+	width: 500px;
+	height: 200px; 
+	
 }
+
+
+<!-- BETA PAGE JUMP IN BUTTON CSS \/ -->
