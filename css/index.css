@@ -16,7 +16,7 @@ body {
   background-position: center; 
   font-family: 'quicksandlight', "Arial", Helvetica, sans-serif;
   padding: 15px;    
-  cursor:url("/normal_selector.cur");
+  cursor:url("/normal_selector.cur"), default;
 }
 
 
