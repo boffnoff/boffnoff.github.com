@@ -17,6 +17,17 @@ body {
   font-family: 'quicksandlight', "Arial", Helvetica, sans-serif;
   padding: 15px;    
   cursor:url("/normal_selector.cur"), default;
+    
+  
+  scrollbar-face-color:#05B7FF;
+  scrollbar-arrow-color:#05B7FF;
+  scrollbar-track-color:#CBD5D7;
+  scrollbar-shadow-color:#05B7FF;
+  scrollbar-highlight-color:#05B7FF;
+  scrollbar-3dlight-color:#808080;
+  scrollbar-darkshadow-Color:#202020;
+  
+    
 }
 
 
@@ -229,8 +240,52 @@ code {
 }
 
 
+/* CUSTOM WEBPAGE SCROLLBARS ---- IN BETA AND THE CODE ONLY WORKS FOR CHROME ATM */
 
-<!-- BETA PAGE JUMP IN BUTTON CSS \/ -->
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track  {
+    -webkit-box-shadow: inset 0 0 6px #05B7FF; 
+    -webkit-border-radius: 10px;
+    background:#CBD5D7;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb  {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #05B7FF; 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+::-webkit-scrollbar-thumb:hover  {
+    background: rgba(255,0,0,0.4); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+    background: rgba(255,0,0,0.4); 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* BETA PAGE JUMP IN BUTTON CSS \/ */
+
+
+
 @-webkit-keyframes bounceup {
       0%     { width:80px; height:80px; }
       25%    { width:220px; height:220px; }
