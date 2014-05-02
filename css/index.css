@@ -258,17 +258,14 @@ code {
 
 
 /* CUSTOM WEBPAGE SCROLLBARS ---- IN BETA AND THIS CODE MIGHT/NOT WORK FOR IE */
-scrollbar-base-color: #C0C0C0; 
-scrollbar-base-color: #C0C0C0; 
-scrollbar-3dlight-color: #C0C0C0; 
-scrollbar-highlight-color: #C0C0C0; 
-scrollbar-track-color: rgba(255,255,255,0.33333); 
-scrollbar-arrow-color: rgba(255,255,255,0.33333); 
-scrollbar-shadow-color: #C0C0C0; 
-scrollbar-dark-shadow-color: #C0C0C0; 
-
-
-
+scrollbar-base-color: #663366; 
+scrollbar-face-color: #99CCCC; 
+scrollbar-track-color: #996699; 
+scrollbar-arrow-color: #330033;
+scrollbar-highlight-color: #FFFFFF; 
+scrollbar-3dlight-color: #CCCCCC; 
+scrollbar-shadow-color: #663366;
+scrollbar-darkshadow-color: #000000; 
 
 
 
