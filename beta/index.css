@@ -25,7 +25,7 @@ p, h2, h3, h4, h5, {
 
 
 .intro p {  
-  background: rgba(255,255,255,0.9);
+ -webkit-gradient(linear, 0% 0%, 0% 100%, from(#666666), to(#666666), color-stop(.6,#333))
   padding: 5px
 }
    
