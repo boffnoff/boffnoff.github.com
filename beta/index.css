@@ -151,9 +151,35 @@ h3 {
 	
 }
 
+<!-- SPEKAING OF LINKS, CODE BELOW IS FOR CUSTOM TEXT SELECTION COLOURS -->
 
-<!-- BETA PAGE JUMP IN BUTTON CSS \/ -->
+/* Mozilla based browsers */
+::-moz-selection {
+background-color: #FF68B0;
+color: #000;
+}
+
+/* Works in Safari */
+::selection {
+background-color: #FF68B0;
+color: #FFF;
+}
+
+/* Works in Opera */
+::-o-selection {
+background-color: #FF68B0;
+color: #FFF;
+}
+::-ms-selection {
+background-color: #FF68B0;
+color: #FFF;
+}
+
+/* Works in Internet Explorer */
+::-webkit-selection {
+background-color: #FF68B0;
+color: #FFF;
+}
 
 
-
-
+<!-- END OF CODE BELOW IS FOR CUSTOM TEXT SELECTION COLOURS -->
