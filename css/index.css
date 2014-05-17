@@ -77,10 +77,9 @@ body {
 
  h1 {
   text-align:center;
-  color: #111
+  color: #008EB4;
   font-size: 90px;
-  font-family: 'absender', Arial, sans-serif;
-}
+  }
 
 @font-face {
 	font-family: 'absender';
@@ -96,7 +95,7 @@ body {
     height: 50px;
     margin: 0;
     top: 0;
-  
+    z-index: 1;
 }
 
 
@@ -149,7 +148,7 @@ h3 {
 
 .misc_page {
   border-top-left-radius:2em;
-  webkit-border-top-left-radius:2em; /* Safari */
+  -webkit-border-top-left-radius:2em; /* Safari */
   color: gold;
   size: 100px;
   background: rgba(255,255,255,0.9);
