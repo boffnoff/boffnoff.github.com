@@ -270,15 +270,15 @@ scrollbar-darkshadow-color: #000000;
 <!-- SPEKAING OF LINKS, CODE BELOW IS FOR CUSTOM TEXT SELECTION COLOURS -->
 
 /* Mozilla based browsers */
--moz-selection {
-background-color: #FF68B0;
-color: #000;
+::-moz-selection { 
+background-color: #BA9EB0; 
+color: #ffffff;
 }
 
 /* Works in Safari */
-selection {
-background-color: #FF68B0;
-color: #FFF;
+::selection {
+background-color: #BA9EB0;
+color: #ffffff;
 }
 
 /* Works in Opera */
