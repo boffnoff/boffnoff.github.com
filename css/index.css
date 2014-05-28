@@ -271,29 +271,29 @@ scrollbar-darkshadow-color: #000000;
 
 /* Mozilla based browsers */
 ::-moz-selection { 
-background-color: #34AADC; 
+background-color: #1d77ef; 
 color: #FFF;
 }
 
 /* Works in Safari */
 ::selection {
-background-color: #34AADC;
+background-color: #1d77ef;
 color: #FFF;
 }
 
 /* Works in Opera */
 -o-selection {
-background-color: #34AADC;
+background-color: #1d77ef;
 color: #FFF;
 }
 -ms-selection {
-background-color: #34AADC;
+background-color: #1d77ef;
 color: #FFF;
 }
 
 /* Works in Internet Explorer */
 -webkit-selection {
-background-color: #34AADC;
+background-color: #1d77ef;
 color: #FFF;
 }
 
