@@ -229,7 +229,7 @@ code {
 }
 
 
-/* CUSTOM WEBPAGE SCROLLBARS ---- IN BETA AND THE CODE ONLY WORKS FOR CHROME ATM */
+/* CUSTOM WEBPAGE SCROLLBARS ---- IN BETA AND THE CODE ONLY WORKS FOR CHROME ATM, (and Steam in-game browser) */
 ::-webkit-scrollbar {
     width: 5px;
 }
@@ -256,7 +256,7 @@ code {
 }
 
 
-/* CUSTOM WEBPAGE SCROLLBARS ---- IN BETA AND THIS CODE MIGHT/NOT WORK FOR IE */
+/* CUSTOM WEBPAGE SCROLLBARS ---- IN BETA AND THIS CODE MIGHT/NOT WORK FOR IE (Doesnt work at all) */
 scrollbar-base-color: #663366; 
 scrollbar-face-color: #99CCCC; 
 scrollbar-track-color: #996699; 

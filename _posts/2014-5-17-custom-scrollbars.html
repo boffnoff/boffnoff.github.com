@@ -26,6 +26,38 @@ layout: post
 <p>
     Where I have said "PATH TO CSS STYLESHEET HERE", insert the actual path to where it is located, so for me it is "css/index.css". Open up the
     file in any plain text editing software, such as Notepad (For Windows) or Text Edit (For Mac). However I suggest that you use 
-    <a href="http://www.sublimetext.com/">Sublime Text Editor</a>
-
+    <a href="http://www.sublimetext.com/">Sublime Text Editor.</a>
+<br>
+    And copy the following code into it... (doesn't matter where)
     </p>
+
+<pre><code>
+        
+/* CUSTOM WEBPAGE SCROLLBARS ---- IN BETA AND THE CODE ONLY WORKS FOR CHROME ATM, (and Steam in-game browser) */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track  {
+    -webkit-box-shadow: inset 0 0 6px rgba(255,255,255,0.33333);
+    -webkit-border-radius: 10px;
+    background: rgba(255,255,255,0.33333);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb  {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(219,221,222,0.7); 
+    -webkit-box-shadow: inset 0 0 6px rgba(219,221,222,0.4); 
+}
+::-webkit-scrollbar-thumb:hover  {
+    background: rgba(0,0,0,0.5); 
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+    background: rgba(255,255,255,0.33333);
+}
+
+
+</code></pre>
