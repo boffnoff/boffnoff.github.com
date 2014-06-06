@@ -1,0 +1,84 @@
+---
+title: InnerHTML Tutorial
+layout: post
+---
+<head>
+<title>JS InnerHTML</title>
+</head>
+
+
+
+<h2>Using JavaScript's InnerHTML feature</h2>
+
+
+
+<p>
+   In case you were never aware, JS has a useful function that enable you to dynamically change the content on a page
+    without actually changing pages or reloading the current page. This could be useful as it enables quick refresh of
+    text and can be carried out by the user. For example, in an App, why would you want to create seperate pages and
+    lots of lines of code, when you could just use several JS buttons that change the content??
+    </p>    
+<br>
+<br>
+
+<p>
+   Anyway, here's an example of it at work... 
+    </p>
+
+<b id='main'>
+<p>
+  Hello John Smith!
+</p>
+</b>
+
+<script type="text/javascript">
+function changeText(){
+    document.getElementById('main').innerHTML = 'Hello Joe Bloggs! :)';
+}
+</script>
+<input type='button' onclick='changeText()' value='Change Text'/>
+
+    
+    
+
+<p>
+    So thats 4 simple &lt;li&gt; right there, but when viewed they are horizontal... so in your CSS file you will need to either copy or type up the
+    following code.
+    
+    </p>
+
+
+<pre><code>
+        
+.menu,
+.menu-horizontal,
+.menu li,
+.menu-horizontal li {
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+}
+
+
+.menu li {
+  padding: 15px;
+}
+
+
+.menu-horizontal {
+  display: block;
+  text-align: right;
+}
+
+
+.menu-horizontal li {
+  display: inline;
+}
+
+
+</code></pre>
+
+
+<p>
+    And thats all there is to it, it works across every browser, and even supports mobile devices... 
+</p>
