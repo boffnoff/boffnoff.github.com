@@ -1,0 +1,75 @@
+---
+title: Setting up a Hackintosh
+layout: post
+---
+<head>
+<title>"Hackintosh"</title>
+</head>
+
+
+
+<h2>Install OS X on *any* PC!</h2>
+
+
+
+<p>
+   Lets presume that you are currently aware that Apple's OS X is the best OS out there.. And that of course you would 
+    want a piece of it, as who doesnt?o CSS you can manipulate it and have it orientated horizontally.
+    <br>
+    For example, here's my list:
+    </p>    
+
+
+    <pre><code>
+    
+    &lt;ul class="menu-horizontal"/&gt;
+        &lt;/li&gt; Item 1 &lt;/li&gt;
+        &lt;/li&gt; Item 2 &lt;/li&gt;
+        &lt;/li&gt; Item 3 &lt;/li&gt;
+        &lt;/li&gt; Item 4 &lt;/li&gt;
+    &lt;/head&gt;
+    
+    </code></pre>
+    
+
+<p>
+    So thats 4 simple &lt;li&gt; right there, but when viewed they are horizontal... so in your CSS file you will need to either copy or type up the
+    following code.
+    
+    </p>
+
+
+<pre><code>
+        
+.menu,
+.menu-horizontal,
+.menu li,
+.menu-horizontal li {
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+}
+
+
+.menu li {
+  padding: 15px;
+}
+
+
+.menu-horizontal {
+  display: block;
+  text-align: right;
+}
+
+
+.menu-horizontal li {
+  display: inline;
+}
+
+
+</code></pre>
+
+
+<p>
+    And thats all there is to it, it works across every browser, and even supports mobile devices... 
+</p>
