@@ -57,7 +57,18 @@ p, h2, h3, h4, h5, {
 
 
 
+@media screen and (min-device-width: 1px) and (max-device-width: 320px) { 
+  
+  
+  h1 {
+    
+      font-size: 8vw;
+     
+    }  
+}
 
+
+ 
 
 
 
@@ -86,8 +97,8 @@ body {
  h1 {
   text-align:center;
   color: #008EB4;
- /* font-size: 70px;*/
-  font-size: 8vw;
+  font-size: 70px;
+ 
   }
 
 @font-face {
