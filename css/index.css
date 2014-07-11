@@ -49,11 +49,13 @@ p, h2, h3, h4, h5, {
     }  
   h1 {
     color: #111
-    font-size: 70px;
+    /*font-size: 70px;*/
+       font-size: 30vw;
+
     }  
 }
 
-
+/*
 @media only screen and (max-width: 320px) {
 
    h2 { 
@@ -61,7 +63,7 @@ p, h2, h3, h4, h5, {
    }
 
 }
-
+*/
 
 
 
@@ -159,8 +161,7 @@ a:active{
 h2,
 h3, {
   color: #008EB4;
-  font-size: 30vw;
-
+ 
 }
 
 
