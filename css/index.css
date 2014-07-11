@@ -20,7 +20,7 @@ body {
         
 }
 
-
+h1 { font-size: 4vw; }
 p, h2, h3, h4, h5, {
    color: #111;
    }
@@ -49,18 +49,9 @@ p, h2, h3, h4, h5, {
     }  
   h1 {
     color: #111
-  /*  font-size: 70px;*/
+    font-size: 70px;
      
     }  
-}
-
-
-@media only screen and (max-width: 320px) {
-
-   h1 { 
-       font-size: .5em;
-   }
-
 }
 
 
@@ -154,7 +145,7 @@ a:active{
 
 
 
-
+h1 { font-size: 4vw; }
 
 
 h2,
