@@ -53,6 +53,21 @@ p, h2, h3, h4, h5, {
     }  
 }
 
+
+@media only screen and (max-width: 320px) {
+
+   h2 { 
+       font-size: .5em;
+   }
+
+}
+
+
+
+
+
+
+
 /* code below was original wallpaper, the image above replaces that one. */
 
 /*
