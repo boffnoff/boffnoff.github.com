@@ -52,30 +52,19 @@ function changeText(){
 
 <pre><code>
         
-.menu,
-.menu-horizontal,
-.menu li,
-.menu-horizontal li {
-  list-style: none outside none;
-  margin: 0;
-  padding: 0;
+&lt;b id='main'/&gt;
+&lt;p/&gt;
+  Hello John Smith!
+&lt;/p/&gt;
+&lt;/b/&gt;
+
+&lt;script type="text/javascript"/&gt;
+function changeText(){
+    document.getElementById('main').innerHTML = 'Hello Joe Bloggs! :)&lt;br/&gt;';
 }
+&lt;/script/&gt;
+&lt;input type='button' onclick='changeText()' value='Change Text'//&gt;
 
-
-.menu li {
-  padding: 15px;
-}
-
-
-.menu-horizontal {
-  display: block;
-  text-align: right;
-}
-
-
-.menu-horizontal li {
-  display: inline;
-}
 
 
 </code></pre>
