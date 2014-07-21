@@ -39,3 +39,19 @@ alert('WARNING: This page is highly unstable...');
 <div class="circle"></div>
 
 <div class="box"></div>
+
+<br>
+
+<p id="red">JavaScript can change the style of an HTML element.</p>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("red");
+    x.style.fontSize = "25px";           
+    x.style.color = "red"; 
+}
+</script>
+
+<button type="button" onclick="myFunction()">Click Me!</button>
+
+
