@@ -330,7 +330,8 @@ color: #FFF;
 /* The following CSS is for Misc page buttons that allow for difierent text colours */
 
 
-.green {
+
+.red {
 	background-color:#fe1a00;
 	-webkit-border-top-left-radius:15px;
 	-moz-border-radius-topleft:15px;
@@ -357,17 +358,12 @@ color: #FFF;
 	width:100px;
 	text-decoration:none;
 	text-align:center;
-}
-
-.green:hover {
+}.red:hover {
 	background-color:#ce0100;
-}
-
-.green:active {
+}.red:active {
 	position:relative;
 	top:1px;
 }
-
 
 .green {
 	background-color:#54b300;
