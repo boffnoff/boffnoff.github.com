@@ -75,7 +75,7 @@ h1 {
     background-color: #fff;
 }
 
-
+/*
 #sticky-header {
  
     position: fixed;
@@ -85,31 +85,4 @@ h1 {
     top: 0;
     z-index: 1;
 }
-
-a, a:link{
-    color: #008EB4;
-}
-
- a:visited{
-     color: spin(#008EB4, 72);
-}
-
-
-i{
-    color: #008EB4;
-    n(#008EB4, 72);
-    8EB4, 5%);
-    text-decoration: underline
-}
-
-a:active{
-    text-decoration: none;
-}
-
-
-hr {
-    color: #f00;
-background-color: #f00;
-height: 5px;
-}
-
+*/
