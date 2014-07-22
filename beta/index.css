@@ -86,3 +86,14 @@ h1 {
     z-index: 1;
 }
 */
+
+hr {
+    color: #111;
+    background-color: #111;
+    height: 5px;  
+    width: 85%;
+
+}
+
+
+
