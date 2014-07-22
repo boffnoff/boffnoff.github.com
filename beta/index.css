@@ -43,11 +43,18 @@ body {
     }  
 }
 
- h1 {
+
+h1 {
   text-align: center;
   color: #111;
-  font-weight: 100px;     
+  font-family:Helvetica, Arial;
+  font-weight:lighter;
+  font-size:25px;
+
 }  
+
+
+
 
 #sticky-header {
  
