@@ -355,3 +355,27 @@ box-shadow: inset 0 0 0 1px rgba(19,191,17,1), 0 2px 4px rgba(0,0,0,.2);
 
 
 
+input[type=range] {
+	position: relative;
+	-webkit-appearance: none;
+	appearance: none;
+	background-color: #fff;
+	height: 2px;
+	width: 300px;
+	border-radius: 2px;
+	top: -5px;
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+	margin-right: 10px;
+	outline: none;
+}
+
+input[type=range]::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	appearance: none;
+	width: 17px;
+	height: 17px;
+	background-color: #fff;
+	border-radius: 50%;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.7);
+	cursor: ew-resize;
+}
