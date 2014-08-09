@@ -30,6 +30,7 @@ body {
   p {
   color: #111;
    padding: 15px;
+   
 }
   
 }
@@ -58,6 +59,8 @@ h1 {
 p {
     padding-left: 10%;
     background-color: #fff;
+    padding-bottom: 10px;
+    font-size: 20px;
 }
 
 
