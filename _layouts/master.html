@@ -67,23 +67,6 @@
 
 </script>
     
-<!-- GOOGLE SEARCH CODE -->
-
-<script>
-  (function() {
-    var cx = '009971354163205513971:enqpl-hhdny';
-    var gcse = document.createElement('script');
-    gcse.type = 'text/javascript';
-    gcse.async = true;
-    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
-        '//www.google.com/cse/cse.js?cx=' + cx;
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(gcse, s);
-  })();
-</script>
-<gcse:search></gcse:search>    
-    
-    
     
 </head>
     
@@ -127,6 +110,26 @@
   <div class="content" role="main">
     {{content}}
   </div>
+    
+<div>
+<!-- GOOGLE ANALYTICS CODE -->
+
+<script>
+  (function() {
+    var cx = '009971354163205513971:enqpl-hhdny';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>    
+    
+    </div>    
+    
   <footer class="page_footer">
     Generated: {{ site.time | date: '%d %m %H:%M' }}
 
