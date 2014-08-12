@@ -7,4 +7,4 @@ Version: 1 (Live) and uses Google Analytics: [boffnoff.me](http://boffnoff.me "H
 
 
 
-Version 1.1 (Beta) [boffnoff.me/beta](http://boffnoff.me/misc "Beta Site")
+Version 1.1 (Beta) [boffnoff.me/beta](http://boffnoff.me/beta "Beta Site")
