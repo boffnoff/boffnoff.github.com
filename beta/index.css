@@ -85,6 +85,11 @@ hr {
 
 }
 
+a {
+    color: #2095FE;
+    text-decoration: none;
+}
+
 
 .netowrk_connections,p {
     margin:1px;
