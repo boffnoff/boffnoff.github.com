@@ -417,3 +417,47 @@ color: #FFF;
       -webkit-animation-duration:1s;
     }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: 'quicksandlight';
+    src: url('fonts/quicksand/quicksand-light-webfont.eot');
+    src: url('fonts/quicksand/quicksand-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/quicksand/quicksand-light-webfont.woff') format('woff'),
+         url('fonts/quicksand/quicksand-light-webfont.ttf') format('truetype'),
+         url('fonts/quicksand/quicksand-light-webfont.svg#quicksandlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
