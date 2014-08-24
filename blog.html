@@ -1,0 +1,25 @@
+---
+title: Home
+layout: blog
+---
+<head>
+    <title>Boffnoff</title>
+    
+</head>
+
+
+
+<ul class="menu"> 
+{% for post in site.posts limit:14 %}
+    <li>
+        <a href="{{ post.url }}">
+          <span>
+            {{ post.title }}
+            <time datetime="{{ post.date | date_to_xmlschema }}">
+              {{ post.date | date:"%b %d %Y" }}
+            </time>
+          </span>
+        </a>
+    </li>
+{% endfor %}
+</ul>
