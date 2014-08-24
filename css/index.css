@@ -131,7 +131,7 @@ body {
 The following code indicates that when ever you mouse over a link, the text will chnage colour to red, enlarge by 150% and underline the link
 
 */
-
+/*
 a, a:link{
     color: #008EB4;
     cursor:url("/normal_selector.cur"), default;
@@ -156,7 +156,7 @@ a:active{
     cursor:url("/normal_selector.cur"), default;
 }
 
-
+*/
 
 h2,
 h3, {
