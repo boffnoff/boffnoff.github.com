@@ -326,6 +326,29 @@ color: #FFF;
 
 <!-- END OF CODE BELOW IS FOR CUSTOM TEXT SELECTION COLOURS -->
 
+/* JUMP IN BUTTON ON INDEX PAGE */
+.Jump In {
+	background-color:#44c767;
+	-moz-border-radius:25px;
+	-webkit-border-radius:25px;
+	border-radius:25px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	font-size:25px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.Jump In:hover {
+	background-color:#5cbf2a;
+}
+.Jump In:active {
+	position:relative;
+	top:1px;
+}
+
 
 /* The following CSS is for Misc page buttons that allow for difierent text colours */
 
@@ -377,45 +400,6 @@ color: #FFF;
 
 
 
-
-
-
-/* BETA PAGE JUMP IN BUTTON CSS \/ */
-
-
-
-@-webkit-keyframes bounceup {
-      0%     { width:80px; height:80px; }
-      25%    { width:220px; height:220px; }
-      50%    { width:160px; height:160px; }
-      75%    { width:180px; height:180px; }
-      100%   { width:160px; height:160px; }
-    }
-    
-    @-webkit-keyframes bouncedown {
-      0%     { width:160px; height:160px; }
-      25%    { width:80px; height:80px; }
-      50%    { width:100px; height:100px; }
-      75%    { width:80px; height:80px; }
-      90%    { width:90px; height:90px; }
-      100%   { width:80px; height:80px; }
-    }
-    
-    #button {
-      width:80px;
-      height:80px;
-      background-color:#898C90;
-       -webkit-transition: all .5s ease-in-out;
-      
-    }
-
-    
-    #button:hover {
-      width:160px;
-      height:160px;
-      -webkit-animation-name:bounceup;
-      -webkit-animation-duration:1s;
-    }
 
 
 
