@@ -327,7 +327,7 @@ color: #FFF;
 <!-- END OF CODE BELOW IS FOR CUSTOM TEXT SELECTION COLOURS -->
 
 /* JUMP IN BUTTON ON INDEX PAGE */
-.Jump In {
+.Jump {
 	background-color:#44c767;
 	-moz-border-radius:25px;
 	-webkit-border-radius:25px;
@@ -341,10 +341,10 @@ color: #FFF;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #2f6627;
 }
-.Jump In:hover {
+.Jump:hover {
 	background-color:#5cbf2a;
 }
-.Jump In:active {
+.Jump:active {
 	position:relative;
 	top:1px;
 }
