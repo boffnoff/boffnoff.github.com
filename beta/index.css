@@ -70,6 +70,7 @@ h1 {
   font-weight: lighter;
   font-size: 40px;
   background-color: rgba(245, 245, 243, 0.96);
+  border-bottom: 1px solid #111;
   
   background-position:center;
   position: fixed;
