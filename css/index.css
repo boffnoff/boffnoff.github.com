@@ -70,6 +70,8 @@ p, h2, h3, h4, h5, {
 
 .home {
     text-align: center;
+    background: rgba(255,255,255,0.7);
+    padding: 5px
 } 
 
 .main_header {
