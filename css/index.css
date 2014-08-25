@@ -68,20 +68,9 @@ p, h2, h3, h4, h5, {
 }
 
 
- 
-
-
-
-/* code below was original wallpaper, the image above replaces that one. */
-
-/*
-body {
-  background-color: #1E90FF;
-  color: white;
-}
-
- */
-
+.home {
+    text-align: center;
+} 
 
 .main_header {
   padding: 15px;
