@@ -16,7 +16,7 @@ body {
   background-position: center; 
   font-family: 'quicksandlight', "Arial", Helvetica, sans-serif;
   padding: 15px;    
-  cursor:url("/normal_selector.cur"), default;
+  cursor:url("/images/normal_selector.cur"), default;
         
 }
 
@@ -123,12 +123,12 @@ The following code indicates that when ever you mouse over a link, the text will
 
 a, a:link{
     color: #008EB4;
-    cursor:url("/normal_selector.cur"), default;
+    cursor:url("/images/normal_selector.cur"), default;
 }
 
  a:visited{
      color: spin(#008EB4, 72);
-     cursor:url("/normal_selector.cur"), default;
+     cursor:url("/images/normal_selector.cur"), default;
 }
 
 
@@ -137,12 +137,12 @@ i{
     n(#008EB4, 72);
     8EB4, 5%);
     text-decoration: underline
-    cursor:url("/normal_selector.cur"), default;
+    cursor:url("/images/normal_selector.cur"), default;
 }
 
 a:active{
     text-decoration: none;
-    cursor:url("/normal_selector.cur"), default;
+    cursor:url("/images/normal_selector.cur"), default;
 }
 
 
