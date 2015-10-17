@@ -147,7 +147,7 @@ a {
   padding: 0;
   width: 100%;
   height: 45px;
-  position: relative;
+  position: fixed;
   border-radius: 0px;
   background: #323232;
   font-family: "Helvetica Neue", "Helvetica", sans-serif;
