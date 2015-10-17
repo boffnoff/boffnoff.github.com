@@ -1,10 +1,8 @@
 Robin Stanley
 ==========
 ---
-Version: 1 (Live) and uses Google Analytics: [boffnoff.me](http://boffnoff.me "Home")
+Welcome to the 'dev' branch of boffnoff.github.com. Here I am replicating an Apple.com themed website where I shall display my work.
 ---
 
 
-
-
-Version 1.1 (Beta) [boffnoff.me/beta](http://boffnoff.me/beta "Beta Site")
+Currently a WIP
