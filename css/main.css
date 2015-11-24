@@ -50,6 +50,7 @@ a {
 
 .custom-menu-wrapper {
     /*background-color: rgba(247, 247, 247, 0.3);*/
+    background-color: #455A64;
     color: white;
     margin-bottom: 2.5em;
     white-space: nowrap;
@@ -77,7 +78,7 @@ a {
 
 .custom-menu .pure-menu-link:hover,
 .custom-menu .pure-menu-heading:hover {
-    background-color: transparent;
+    background-color: #455A64;
 }
 
 .custom-menu-top {
