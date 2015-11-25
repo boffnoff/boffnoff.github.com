@@ -9,7 +9,7 @@ body {
 .header {
     margin: auto;
     height: 200px;
-    width: 98%;
+    width: 100%;
     padding: 10px;
     vertical-align: middle;
     color: white;
@@ -29,7 +29,9 @@ body {
 
 
 .content {
-padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
     width: 100%;
     background-color: white;
     color: black;
@@ -43,6 +45,9 @@ a {
 }
 
 
+ul {
+    color: white;
+}
 
 
 /* custom menu wrapper */
@@ -70,6 +75,7 @@ a {
 .custom-menu .pure-menu-link,
 .custom-menu .pure-menu-heading {
     color: white;
+    background-color: #455A64;
 }
 
 .pure-menu-list {
@@ -174,7 +180,7 @@ a {
     .custom-menu-bottom {
         position: absolute;
         width: 100%;
-        border-top: 1px solid #eee;
+        /*border-top: 1px solid #eee;*/
         background-color: #808080\9;
         z-index: 100;
     }
@@ -208,5 +214,8 @@ a {
         overflow: hidden;
         width:100%;
     }
-
+    .pure-menu-horizontal {
+        
+        background-color: #455A64;
+    }
 }
