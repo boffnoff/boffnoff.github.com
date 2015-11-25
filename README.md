@@ -1,10 +1,10 @@
 Robin Stanley
 ==========
 ---
-Version: 1 (Live) and uses Google Analytics: [boffnoff.me](http://boffnoff.me "Home")
+Version: 1 (down) and uses Google Analytics: [boffnoff.me](http://boffnoff.me "Home")
 ---
 
+Version 1.1 (Beta) [ENTER BETA SITE AT YOUR PERIL](http://ERROR.404 "Beta Site")
 
 
-
-Version 1.1 (Beta) [boffnoff.me/beta](http://boffnoff.me/beta "Beta Site")
+#version 2 is a WIP
