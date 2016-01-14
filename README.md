@@ -1,10 +1,7 @@
 Robin Stanley
 ==========
 ---
-Version: 1 (down) and uses Google Analytics: [boffnoff.me](http://boffnoff.me "Home")
+What is the universes greatest lie?
 ---
 
-Version 1.1 (Beta) [ENTER BETA SITE AT YOUR PERIL](http://ERROR.404 "Beta Site")
-
-
-#version 2 is a WIP
+"I have read and accept the terms and conditions"
