@@ -1,0 +1,12 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Helvetica;
+    font-weight: normal;
+    text-align: center;
+}
+
+h1 {
+    text-align: right;
+    padding-top: 10%;
+}
