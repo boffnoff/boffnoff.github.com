@@ -9,6 +9,7 @@ body {
 h1 {
     text-align: right;
     padding-top: 10%;
+    padding-bottom:8%;    
 }
 
 
@@ -20,4 +21,21 @@ a {
 
 a:hover {
     color: grey;
+}
+
+#container {
+        height:11em;
+        white-space: nowrap;
+	    overflow-y: hidden;
+	    overflow-x: scroll;
+	    -webkit-overflow-scrolling: touch;
+        
+   
+}
+#widget {
+    display:inline-block;
+    width:10em;
+    height:10em;
+    background-color:red;
+    transition: background 0.3s ease-out;
 }
