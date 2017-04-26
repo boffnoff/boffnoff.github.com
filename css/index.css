@@ -10,3 +10,14 @@ h1 {
     text-align: right;
     padding-top: 10%;
 }
+
+
+a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+a:hover {
+    color: grey;
+}
