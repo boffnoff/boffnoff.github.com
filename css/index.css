@@ -4,6 +4,7 @@ body {
     font-family: Helvetica;
     font-weight: normal;
     text-align: center;
+    padding-left: 1%;
 }
 
 h1 {
@@ -14,8 +15,13 @@ h1 {
 }
 
 h2 {
-    padding-left: 1%;
+    text-align: left;
     font-size: 3em;
+}
+
+p,li {
+    text-align: left;
+    max-width: 60%;
 }
 
 a {
