@@ -1,23 +1,18 @@
 body {
-    background-color: black;
-    color: white;
-    font-family: Helvetica;
+    background-color: white;
+    color: black;
+    font-family: 'Noto Serif', serif;
     font-weight: normal;
-    text-align: center;
-    padding-left: 1%;
+    text-align: left;
+    padding-left: 7%;
     padding-right: 1%;
-}
-
-h1 {
-    text-align: right;
     padding-top: 10%;
-    padding-bottom:8%;
-    padding-right: 1%;
 }
 
 h2 {
     text-align: left;
     font-size: 3em;
+    line-height: 90%;
 }
 
 p,li {
@@ -27,16 +22,21 @@ p,li {
 }
 
 a {
-    color: white;
+    color: gray;
     text-decoration: none;
     
 }
 
 a:hover {
-    color: grey;
+    color: #23abd7;
 }
 
 img {
     max-width:40%;
     padding-top: 20px;
+}
+
+.headline h1, .headline p {
+    display: inline;
+    line-height: 28px;    
 }
