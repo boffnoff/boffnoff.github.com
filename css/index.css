@@ -5,6 +5,7 @@ body {
     font-weight: normal;
     text-align: left;
     padding-left: 7%;
+    padding-right: 7%;
     padding-right: 1%;
     padding-top: 10%;
 }
@@ -13,9 +14,11 @@ h2 {
     text-align: left;
     font-size: 3em;
     line-height: 90%;
+    color: #23abd7;
 }
 
-p,li {
+p,
+li {
     text-align: left;
     max-width: 60%;
     line-height: 120%;
@@ -24,7 +27,7 @@ p,li {
 a {
     color: gray;
     text-decoration: none;
-    
+
 }
 
 a:hover {
@@ -32,11 +35,16 @@ a:hover {
 }
 
 img {
-    max-width:40%;
-    padding-top: 20px;
+
 }
 
-.headline h1, .headline p {
+.headline h1,
+.headline p {
     display: inline;
-    line-height: 28px;    
+    line-height: 28px;
 }
+
+.work {
+    padding-top: 5%;
+}
+
