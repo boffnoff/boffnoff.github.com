@@ -1,0 +1,50 @@
+body {
+    background-color: white;
+    color: black;
+    font-family: 'Noto Serif', serif;
+    font-weight: normal;
+    text-align: left;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-right: 1%;
+    padding-top: 10%;
+}
+
+h2 {
+    text-align: left;
+    font-size: 3em;
+    line-height: 90%;
+    color: #23abd7;
+}
+
+p,
+li {
+    text-align: left;
+    max-width: 60%;
+    line-height: 120%;
+}
+
+a {
+    color: gray;
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: #23abd7;
+}
+
+img {
+
+}
+
+.headline h1,
+.headline p {
+    display: inline;
+    line-height: 28px;
+}
+
+.work {
+    padding-top: 5%;
+}
+
