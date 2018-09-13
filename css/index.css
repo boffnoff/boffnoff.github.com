@@ -48,3 +48,11 @@ img {
     padding-top: 5%;
 }
 
+video {
+    width: 100%;
+}
+
+.rpi {
+    float: left;
+    
+}
